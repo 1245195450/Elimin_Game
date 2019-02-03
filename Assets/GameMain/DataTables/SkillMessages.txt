@@ -1,0 +1,9 @@
+﻿#	技能表						
+#	Id		Lv1	Lv2	Lv3	Lv4	Lv5
+#	int		string	string	string	string	string
+#	道具编号	策划备注					
+	1	时间暂停	Freeze All Enemies Last for 2s	Freeze All Enemies Last for 2.5s	Freeze All Enemies Last for 3s	Freeze All Enemies Last for 3.5s	Freeze All Enemies Last for 4s
+	2	提升等级	Tank LV1 And AttackCD 0.7s	Tank LV2 And AttackCD 0.65s	Tank LV3 And AttackCD 0.6s	Tank LV4 And AttackCD 0.55s	Tank LV4 And AttackCD 0.5s
+	3	钢铁之心	Make Home Invincible Last for 2s	Make Home Invincible Last for 2.5s	Make Home Invincible Last for 3s	Make Home Invincible Last for 3.5s	Make Home Invincible Last for 4s
+	4	全屏杀伤	Attack All Enemies With Damage 1	Attack All Enemies With Damage 2	Attack All Enemies With Damage 3	Attack All Enemies With Damage 4	Attack All Enemies With Damage 5
+	5	无敌	Make Yourself Invincible Last For 2s	Make Yourself Invincible Last For 2.5s	Make Yourself Invincible Last For 3s	Make Yourself Invincible Last For 3.5s	Make Yourself Invincible Last For 3.5s

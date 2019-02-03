@@ -1,0 +1,6 @@
+﻿#	敌人坦克表				
+#	Id		HasSp	AttackCD	MaxLevel
+#	int		bool	int	int
+#	战机编号	策划备注	被击中是否会掉落道具(我们规定,在闪光的坦克身上会掉落道具lv2或lv4)	攻速	最高等级
+	20000	白色敌人	FALSE	4	4
+	20001	小六脚敌人	FALSE	4	2

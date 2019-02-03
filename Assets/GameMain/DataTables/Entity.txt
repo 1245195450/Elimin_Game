@@ -1,0 +1,25 @@
+﻿#	实体表				
+#	Id		AssetName	GroupName	tag
+#	int		string	string	string
+#	实体编号	策划备注	资源名称	所处资源组名称	tag标识
+	10000	红色玩家	RedPlayer	Players	P1
+	10001	绿色玩家	GreenPlayer	Players	P2
+	20000	白色敌人	WhiteEnemy	Enemies	Enemy
+	20001	六脚敌人	SixEnemy	Enemies	Enemy
+	30000	板砖	Brick	MapItems	Brick
+	30001	钢铁	Steel	MapItems	Steel
+	30002	草地	Grass	MapItems	Grass
+	30003	河流	River	MapItems	River
+	30004	心脏	Heart	MapItems	Heart
+	30005	空气墙	Air	MapItems	Air
+	30006	玩家家园板砖	Brick	MapItems	PlayerHomeBrick
+	40000	时间暂停	TimePause	Tools	TimePause
+	40001	提升等级	LevelUp	Tools	LevelUp
+	40002	加一命	LifeIncrease	Tools	LifeIncrease
+	40003	全屏杀伤	ScreenHurt	Tools	ScreenHurt
+	40004	钢铁之心	SteelHeart	Tools	SteelHeart
+	40005	无敌时间	GodTime	Tools	GodTime
+	50000	玩家1子弹	Bullect	Bullects	P1Bullect
+	50001	玩家2子弹	Bullect	Bullects	P2Bullect
+	50002	敌人子弹	Bullect	Bullects	EnemyBullect
+	60000	玩家防护盾	GodDefend	Players	GodDefend

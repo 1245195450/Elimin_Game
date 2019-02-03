@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="AnimationsAndController" LoadType="0" Packed="False" />
+      <AssetBundle Name="CostumAssets" LoadType="0" Packed="True" />
+      <AssetBundle Name="DataTable" LoadType="0" Packed="True" />
+      <AssetBundle Name="Entities" LoadType="0" Packed="True" />
+      <AssetBundle Name="Front" LoadType="0" Packed="True" />
+      <AssetBundle Name="Images" LoadType="0" Packed="True" />
+      <AssetBundle Name="Scenes" LoadType="0" Packed="True" />
+      <AssetBundle Name="Sound" LoadType="0" Packed="True" />
+      <AssetBundle Name="UIForms" LoadType="0" Packed="True" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="017f91c8d1dde9c449f81e595abf385d" AssetBundleName="DataTable" />
+      <Asset Guid="0284eceb2f098bd4d8423ee2ea387e2c" AssetBundleName="Entities" />
+      <Asset Guid="03e28dcf33c964b49aedd250f3b45ac9" AssetBundleName="UIForms" />
+      <Asset Guid="0d66252982afa0d4892a85d76ad2de3f" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="0de7e178df669474eba50c5c0b12b5c7" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="1066b8ce18841ff4596882ddff0b7777" AssetBundleName="UIForms" />
+      <Asset Guid="11afff84e2361ca4ab28f47a35bda31f" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="151604b00b8911e4e82711e381de92a1" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="156edf117960b9b40955ebbabaa99937" AssetBundleName="Images" />
+      <Asset Guid="17edce2214dd311489c133cdafd09a9a" AssetBundleName="Sound" />
+      <Asset Guid="18bb9eca3151d954dac028a4d6874c04" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="1cf48933f2a4d174fbd420b319ddb16f" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="20cc9d11d13c6374a99d6f8e6da461d4" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="211da49f8e4027f468f57fec0252ca1a" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="254c67df951808c4e8d95fce9cccdf71" AssetBundleName="Images" />
+      <Asset Guid="3348c3d1a93bce84fba2264f6a8458f4" AssetBundleName="Images" />
+      <Asset Guid="351fe1cce990666429dc1885e59543ab" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="352da872791696c48af3b21132e3e3c3" AssetBundleName="DataTable" />
+      <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" AssetBundleName="DataTable" />
+      <Asset Guid="39c4a533aaf5d9d47a4edb4a7cbb9146" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="3b3425979a79d8646bcf1970dbfcbc2e" AssetBundleName="Images" />
+      <Asset Guid="3ee1029173ff0fd40ab1c0a2d0cd0bf0" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="4025a31c56a74c54b940b7bd80be1368" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="4232fb21241cb3346bc381a8a93bdda6" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="46214c1f1f761a34a9f9888bb6cfe27a" AssetBundleName="UIForms" />
+      <Asset Guid="476bd825b3b97f24ea036630861f00df" AssetBundleName="Images" />
+      <Asset Guid="487a410a6ad11b54a88dcf25826bddb3" AssetBundleName="Entities" />
+      <Asset Guid="48c9b4fa7ddeb7e48a3c7ce4574e6a1d" AssetBundleName="Entities" />
+      <Asset Guid="499b2744c2228b846b2de53f0cc954b9" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="4b72b5924878c2b48b056f20d91aacfd" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="506cf4146d012864c9c3370ff4c50b7e" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="50c1103241117eb48968da53bad7cfe3" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="529e000d42d32de49bc475716ba7ae37" AssetBundleName="Images" />
+      <Asset Guid="55b011970cb6c1441be9af335e238fb6" AssetBundleName="Images" />
+      <Asset Guid="55e57ed3985cc55448bc81a8c19e9833" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="59551ce7c322bac4e897e164060ef7b0" AssetBundleName="Images" />
+      <Asset Guid="5af048fd5b7dbef4cbe3c3888ea9b0ab" AssetBundleName="Scenes" />
+      <Asset Guid="5bd501db47052b64ea6ecd2704d50e54" AssetBundleName="CostumAssets" />
+      <Asset Guid="5c03d49a79b650746a63d1cb4a6bc1e1" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="63f85b344e9fdb043aa0f23657682f6e" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="650afba3620aec3498d4687441d14161" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="684fcac2bcf63b64886440faf00d1e1f" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="68e50d00ff7021d41a8630af5b5d6501" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="6e0c7fb6cfdc04d48adad2c2e3bd5c00" AssetBundleName="Entities" />
+      <Asset Guid="6e3d6c8bacdcf8641b04ed58dfffdbe1" AssetBundleName="Entities" />
+      <Asset Guid="6feec055ca7150044b7907b10dec3d1e" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="70083d1921f55dd40a933889d3943028" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="70b916daf54e6794a9ea2551f199f9b7" AssetBundleName="Images" />
+      <Asset Guid="70d5d01be09d9f34c96a6519e96a80eb" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="736c29e2aec87f941a0abf95b6c94ad0" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="73d8a4276e324c64abbf8ae8b9180014" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="787febe68fa5ba34bb96d7f7c9960c6c" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="78a082e39c1555f4b9683f07b740dfe9" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="78ce3abcfb1ea3a45a84c2a4762f0874" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="7a1e9cf1fc0ff7744b5a1e6fc501d7e8" AssetBundleName="Images" />
+      <Asset Guid="80da87aeeab25d245854f15ea9565f62" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="83edbfb8684dd084c9c1b5a05accb675" AssetBundleName="Images" />
+      <Asset Guid="85f590073150a494885d8bf20c4d673c" AssetBundleName="Entities" />
+      <Asset Guid="870ed72887141d3439523920d19cdb9a" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="89647ea96a3ea3745ae747c41909178f" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="89a3f6f3bf06a9a40bffe3ef6ccdb406" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="8ec99dfe7594d5e41ac1c30fec55ea23" AssetBundleName="Entities" />
+      <Asset Guid="906cd499ba9c158409793ec33f61294f" AssetBundleName="Front" />
+      <Asset Guid="9126ba3643a409b49b1c7dad1c5c6e95" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="912b2d3afbed19c46a43abfbd9d5e286" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="91360a8ef4603e94eb6fdeb778d21975" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="92ca1945262af2a4389a2f4b3e534fdf" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="93e8a897a6d449a46bcb2d0a0afd2e9c" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="95db40f285b46a24392eac370ecedd7f" AssetBundleName="Entities" />
+      <Asset Guid="973a9230172b89a4997d9992c032831b" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="9872d6a38a8da79409c66495c189a237" AssetBundleName="Entities" />
+      <Asset Guid="998380c4c99a6cf4981521788c67c77b" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="9a0e7a3ffc0507941b5ffc07849e9584" AssetBundleName="DataTable" />
+      <Asset Guid="9a4d2152e8277ea49bb7b1d7ce21d9f6" AssetBundleName="Entities" />
+      <Asset Guid="9b147bffde8aed146a618c07c177f8f5" AssetBundleName="Entities" />
+      <Asset Guid="9dbc154959b31484aa24274a363a67ce" AssetBundleName="Images" />
+      <Asset Guid="a00139d6944916f468fb0f5f0df34bab" AssetBundleName="Images" />
+      <Asset Guid="a1010e6cc2f8e904291455d809884b57" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="a372fc24d0977ea49919162ad9deb217" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="a6f53f82398b0504288cd929764e2eb2" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" AssetBundleName="DataTable" />
+      <Asset Guid="ae03982eac72ba0499c170d0d6fe0301" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="b03bc4a1c5435a847b9588d96c58313b" AssetBundleName="UIForms" />
+      <Asset Guid="b101e0a660e3f414ca15cc6147c15865" AssetBundleName="UIForms" />
+      <Asset Guid="b26d18e9cf9883044b7bcf94bd5aba31" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="b2cebe04343227945bab3729ca9a3493" AssetBundleName="DataTable" />
+      <Asset Guid="b382447fc6a310942b88754285132f12" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="b6c6aa8087bbe33468cb7412b041b43f" AssetBundleName="UIForms" />
+      <Asset Guid="b7522ab025b08e14a83b243bd6505ae9" AssetBundleName="Images" />
+      <Asset Guid="b9e2b6f1600423e459618abaeec324f3" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="bbcb9e0c31b47394781113a3de5757aa" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="be2b28b6f526385489e26234a739dc63" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="c01740633a55bdb4595cee9252aeb0a9" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="c27dc4f3d1f6db149b4a0afa99a0082d" AssetBundleName="DataTable" />
+      <Asset Guid="c2fd1bc779cb1b040b3f46f065f0bd65" AssetBundleName="Entities" />
+      <Asset Guid="c3a4b3c783ddce7438622efbc82d5538" AssetBundleName="Images" />
+      <Asset Guid="c73e3cd9f6cf2c446a61e9a4f9fba9e9" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="c979bf6e911802f42bcd7aa9227de320" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="c9c5342cca6068c4e8693232df671574" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="ccd5676a0b067914c8672ea1ce979853" AssetBundleName="Images" />
+      <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" AssetBundleName="DataTable" />
+      <Asset Guid="d532de5e6df7ce948a5f9d07897aa865" AssetBundleName="Images" />
+      <Asset Guid="d76bb1e3419b98b4793f6f533a258891" AssetBundleName="Entities" />
+      <Asset Guid="d81002a5e59ab2b438146993be8507f8" AssetBundleName="Entities" />
+      <Asset Guid="de3eb5cc81a4ca746aaa60dfcf5ac267" AssetBundleName="Entities" />
+      <Asset Guid="e147691be243f1846a594cb87e62cda4" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="e479b807d41f0b54a9108b09fb4c9443" AssetBundleName="Scenes" />
+      <Asset Guid="e5575cd26c9f41e4fa33afb15199de0a" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="e84616fd1aaaceb43baff916f2be8e3a" AssetBundleName="Images" />
+      <Asset Guid="ec0352f73b3f87840a9c0d749c3887ec" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="eee5d5d098f600b4fb1b108fa85d34e4" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="f2562ee0eaad7734da7b177515a67820" AssetBundleName="Images" />
+      <Asset Guid="f34fa949d23366e419c0f36bc9c15671" AssetBundleName="Entities" />
+      <Asset Guid="f360e165748f4fa4aad1b2941ba77d3c" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="f3ea71986e02a2446b1f11616e9bc787" AssetBundleName="Entities" />
+      <Asset Guid="f620d9c94c6445d4fb57240c785d041c" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="f7c31ce521c728048a5d18edac08c040" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="fab8f55c21e67e5409677d12fcf17193" AssetBundleName="AnimationsAndController" />
+      <Asset Guid="fb6aec4e4d5132442a3374845cd0803f" AssetBundleName="Entities" />
+      <Asset Guid="feaff89b10e73ec498541269d2677fc8" AssetBundleName="Scenes" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>

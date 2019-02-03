@@ -1,0 +1,7 @@
+﻿#	子弹表				
+#	Id		Attack	BulletSpeed	BulletSoundId
+#	int		int	float	int
+#	武器编号	策划备注	攻击力	子弹速度	子弹声音编号
+	50000	玩家1子弹	1	6	1000
+	50001	玩家2子弹	1	6	1000
+	50002	敌人子弹	1	6	1000
