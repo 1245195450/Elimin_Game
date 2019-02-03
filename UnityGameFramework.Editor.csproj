@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CD69821E-C3BE-5EFB-BC89-47DE2B2259AC}</ProjectGuid>
+    <ProjectGuid>{314516C3-F474-7507-D151-CF0D601063C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityGameFramework.Editor</AssemblyName>
@@ -361,34 +361,34 @@
       <HintPath>D:/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/Plugins/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/Plugins/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/UGF/Libraries/GameFramework.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/UGF/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/UGF/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/UGF/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -747,7 +747,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityGameFramework.Runtime.csproj">
-      <Project>{A153DC6D-3892-6C1A-7BDF-E7F069AC3A93}</Project>
+      <Project>{BB671BF4-DBE3-1D57-63DB-4AE347153445}</Project>
       <Name>UnityGameFramework.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0CE7B388-BE19-9C72-2569-FFA3BD93EA29}</ProjectGuid>
+    <ProjectGuid>{981FAF55-A67F-6E1F-3219-00B90A129A6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -69,19 +69,19 @@
     <Compile Include="Assets\Plugins\DOTween\Modules\DOTweenModuleUtils.cs" />
     <None Include="Assets\Plugins\DOTween\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -285,22 +285,22 @@
       <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/Plugins/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/UGF/Libraries/GameFramework.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/UGF/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/坦克大战/坦克大战_GF/Assets/UGF/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>D:/Battle City GF/Assets/UGF/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/坦克大战/坦克大战_GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Battle City GF/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -659,11 +659,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityGameFramework.Runtime.csproj">
-      <Project>{A153DC6D-3892-6C1A-7BDF-E7F069AC3A93}</Project>
+      <Project>{BB671BF4-DBE3-1D57-63DB-4AE347153445}</Project>
       <Name>UnityGameFramework.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityGameFramework.Editor.csproj">
-      <Project>{CD69821E-C3BE-5EFB-BC89-47DE2B2259AC}</Project>
+      <Project>{314516C3-F474-7507-D151-CF0D601063C2}</Project>
       <Name>UnityGameFramework.Editor</Name>
     </ProjectReference>
   </ItemGroup>

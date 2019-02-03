@@ -111,6 +111,8 @@ namespace Assets.GameMain.Scripts.UI
             base.OnClose(userData);
             GameEntry.Event.Unsubscribe(MessionTouchArgs.EventId, OnMessionTouch);
             GameEntry.Event.Unsubscribe(GameOverArgs.EventId, OnGameOver);
+            GameEntry.Event.Unsubscribe(PlayerLivesChangeArgs.EventId,OnPlayerLivesChanged);
+            
         }
 
         private void OnGameOver(object sender, GameEventArgs e)

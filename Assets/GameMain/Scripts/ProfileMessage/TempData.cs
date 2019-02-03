@@ -15,7 +15,7 @@ namespace Assets.GameMain.Scripts.ProfileMessage
     {
         public static PlayerDataModel m_P1Model = new PlayerDataModel(0.7f, 1, 3, 1, 1, 1, 1);
         public static PlayerDataModel m_P2Model = new PlayerDataModel(0.7f, 1, 3, 1, 1, 1, 1);
-        public static int Gold = 200;
+        public static int Gold = 2000;
         /// <summary>
         /// 玩到第几关了
         /// </summary>
