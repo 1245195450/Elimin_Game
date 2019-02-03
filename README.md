@@ -1,43 +1,33 @@
 # Battle City Based on GF
 
 #### 介绍
-基于GF的复刻版坦克大战.
-其中包含,
-任务系统,
-商城系统,
-存读档,
-技能背包系统,
-Buff系统
+基于GF的复刻版坦克大战</br>
+其中包含</br>
+任务系统</br>
+商城系统</br>
+存读档</br>
+技能背包系统</br>
+Buff系统</br>
 
-#### 软件架构
-软件架构说明
+#### 运行环境
+C# 7.2</br>
+Unity 2018.3.1f1</br>
+.NET Core 2.2</br>
+.NET Framework 4.7.2</br>
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+//TODO
 
-#### 使用说明
+#### 游戏截图
 
-1. xxxx
-2. xxxx
-3. xxxx
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0203/193326_3009b235_2253805.png "QQ截图20190203191332.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0203/193333_99afec66_2253805.png "QQ截图20190203191517.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0203/193341_89db83a3_2253805.png "QQ截图20190203191526.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0203/193348_f770da2b_2253805.png "QQ截图20190203192318.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0203/193355_1c4b6a58_2253805.png "QQ截图20190203192439.png")
 
 #### 参与贡献
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+烟雨迷离半世殇
