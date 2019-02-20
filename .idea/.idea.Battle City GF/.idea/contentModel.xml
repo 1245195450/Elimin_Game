@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Administrator.PC-20180715LMTF\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Administrator.PC-20180715LMTF\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Battle City GF.184322736.00" t="ExcludeRecursive" />
-    <e p="D:\Battle City GF" t="IncludeRecursive">
+    <e p="C:\Users\Administrator\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Battle City GF.896869831.00" t="ExcludeRecursive" />
+    <e p="D:\Study\GameProject\BattleCity\Battle-City-Based-on-GF" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />

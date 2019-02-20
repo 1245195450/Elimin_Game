@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c16d107f-4434-4b35-8768-348fc9639ddd" name="Default Changelist" comment="" />
+    <list default="true" id="c16d107f-4434-4b35-8768-348fc9639ddd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle City GF/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle City GF/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle City GF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle City GF/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battle City GF.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Battle City GF.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,83 +13,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Games/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2196">
+            <state>
               <folding>
-                <marker date="1549185960579" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-                <marker date="1549185960579" expanded="false" signature="199:874" ph="..." />
-                <marker date="1549185960579" expanded="true" signature="915:13620" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="922:968" ph="/// 游戏逻辑类 ... " />
-                <marker date="1549185960579" expanded="true" signature="997:13618" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="1012:1075" ph="/// 从asset文件拿到技能图标 ... " />
-                <marker date="1549185960579" expanded="true" signature="1149:1209" ph="/// 加载图标成功的回调函数 ... " />
-                <marker date="1549185960579" expanded="true" signature="1341:1422" ph="/// 加载实体成功标识字典,int为id,bool为成功与否的布尔类型 ... " />
-                <marker date="1549185960579" expanded="true" signature="1514:1570" ph="/// 游戏流程的引用 ... " />
-                <marker date="1549185960579" expanded="true" signature="1626:1685" ph="/// 加载实体已全部完成1 ... " />
-                <marker date="1549185960579" expanded="true" signature="1729:1785" ph="/// 生成敌人计时器 ... " />
-                <marker date="1549185960579" expanded="true" signature="1836:1892" ph="/// 敌人出生点数组 ... " />
-                <marker date="1549185960579" expanded="true" signature="1962:2020" ph="/// 已经点击了退出按钮 ... " />
-                <marker date="1549185960579" expanded="true" signature="2095:2172" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="2201:2724" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="2799:3848" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="3001:3124" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="3141:3838" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="3198:3500" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="3381:3480" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="3521:3824" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="3704:3804" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="3913:5010" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="4002:4623" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="4640:5000" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="4762:4984" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="5059:5462" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="5496:5699" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="5729:6887" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="5769:6276" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="5901:6052" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="5958:6034" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="6360:6850" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="6528:6834" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="6933:7205" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="7251:7345" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="7374:7546" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="7665:7737" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="7813:8023" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="8065:8236" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="8115:8226" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="8271:8812" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="8378:8802" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="8555:8747" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="8822:8875" ph="/// 生成玩家 ... " />
-                <marker date="1549185960579" expanded="true" signature="8909:9896" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="9005:9279" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="9172:9263" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="9296:9886" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="9463:9554" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="9778:9870" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="9906:9963" ph="/// 创建普通地图部分 ... " />
-                <marker date="1549185960579" expanded="true" signature="9993:11759" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="10044:10706" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="10103:10692" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="10243:10674" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="10440:10573" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="10765:11237" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="10824:11223" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="11004:11130" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="11278:11749" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="11337:11735" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="11517:11642" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="11769:11823" ph="/// 初始化家园 ... " />
-                <marker date="1549185960579" expanded="true" signature="11855:13612" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="12003:12087" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="12292:12377" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="12582:12667" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="12872:12957" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="13162:13246" ph="{...}" />
-                <marker date="1549185960579" expanded="true" signature="13451:13535" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668408284" expanded="false" signature="199:874" ph="..." />
+                <marker date="1550668408284" expanded="true" signature="915:13620" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="922:968" ph="/// 游戏逻辑类 ... " />
+                <marker date="1550668408284" expanded="true" signature="997:13618" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="1012:1075" ph="/// 从asset文件拿到技能图标 ... " />
+                <marker date="1550668408284" expanded="true" signature="1149:1209" ph="/// 加载图标成功的回调函数 ... " />
+                <marker date="1550668408284" expanded="true" signature="1341:1422" ph="/// 加载实体成功标识字典,int为id,bool为成功与否的布尔类型 ... " />
+                <marker date="1550668408284" expanded="true" signature="1514:1570" ph="/// 游戏流程的引用 ... " />
+                <marker date="1550668408284" expanded="true" signature="1626:1685" ph="/// 加载实体已全部完成1 ... " />
+                <marker date="1550668408284" expanded="true" signature="1729:1785" ph="/// 生成敌人计时器 ... " />
+                <marker date="1550668408284" expanded="true" signature="1836:1892" ph="/// 敌人出生点数组 ... " />
+                <marker date="1550668408284" expanded="true" signature="1962:2020" ph="/// 已经点击了退出按钮 ... " />
+                <marker date="1550668408284" expanded="true" signature="2095:2172" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="2201:2724" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="2799:3848" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3001:3124" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3141:3838" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3198:3500" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3381:3480" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3521:3824" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3704:3804" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3913:5010" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="4002:4623" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="4640:5000" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="4762:4984" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="5059:5462" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="5496:5699" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="5729:6887" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="5769:6276" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="5901:6052" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="5958:6034" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="6360:6850" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="6528:6834" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="6933:7205" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="7251:7345" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="7374:7546" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="7665:7737" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="7813:8023" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="8065:8236" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="8115:8226" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="8271:8812" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="8378:8802" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="8555:8747" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="8822:8875" ph="/// 生成玩家 ... " />
+                <marker date="1550668408284" expanded="true" signature="8909:9896" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="9005:9279" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="9172:9263" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="9296:9886" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="9463:9554" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="9778:9870" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="9906:9963" ph="/// 创建普通地图部分 ... " />
+                <marker date="1550668408284" expanded="true" signature="9993:11759" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="10044:10706" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="10103:10692" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="10243:10674" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="10440:10573" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="10765:11237" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="10824:11223" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="11004:11130" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="11278:11749" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="11337:11735" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="11517:11642" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="11769:11823" ph="/// 初始化家园 ... " />
+                <marker date="1550668408284" expanded="true" signature="11855:13612" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="12003:12087" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="12292:12377" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="12582:12667" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="12872:12957" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="13162:13246" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="13451:13535" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -94,33 +98,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Games/SkillManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="204">
               <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
-                <marker date="1549087306023" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-                <marker date="1549087306023" expanded="false" signature="199:486" ph="..." />
-                <marker date="1549087306023" expanded="true" signature="527:4935" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="534:580" ph="/// 技能管理类 ... " />
-                <marker date="1549087306023" expanded="true" signature="610:4933" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="625:683" ph="/// 拿到游戏流程的引用 ... " />
-                <marker date="1549087306023" expanded="true" signature="740:800" ph="/// 拿到游戏界面UI的引用 ... " />
-                <marker date="1549087306023" expanded="true" signature="851:907" ph="/// 玩家一的技能栏 ... " />
-                <marker date="1549087306023" expanded="true" signature="961:1017" ph="/// 玩家二的技能栏 ... " />
-                <marker date="1549087306023" expanded="true" signature="1107:1241" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="1251:1305" ph="/// 初始化数据 ... " />
-                <marker date="1549087306023" expanded="true" signature="1332:1534" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="1544:1747" ph="/// 显示到技能栏上面 ... " />
-                <marker date="1549087306023" expanded="true" signature="1812:1953" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="1983:4802" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="2078:2339" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="2425:2686" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="2772:3033" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="3119:3380" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="3472:3733" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="3825:4086" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="4178:4439" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="4531:4792" ph="{...}" />
-                <marker date="1549087306023" expanded="true" signature="4831:4927" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668408284" expanded="false" signature="199:486" ph="..." />
+                <marker date="1550668408284" expanded="true" signature="527:4935" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="534:580" ph="/// 技能管理类 ... " />
+                <marker date="1550668408284" expanded="true" signature="610:4933" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="625:683" ph="/// 拿到游戏流程的引用 ... " />
+                <marker date="1550668408284" expanded="true" signature="740:800" ph="/// 拿到游戏界面UI的引用 ... " />
+                <marker date="1550668408284" expanded="true" signature="851:907" ph="/// 玩家一的技能栏 ... " />
+                <marker date="1550668408284" expanded="true" signature="961:1017" ph="/// 玩家二的技能栏 ... " />
+                <marker date="1550668408284" expanded="true" signature="1107:1241" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="1251:1305" ph="/// 初始化数据 ... " />
+                <marker date="1550668408284" expanded="true" signature="1332:1534" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="1544:1747" ph="/// 显示到技能栏上面 ... " />
+                <marker date="1550668408284" expanded="true" signature="1812:1953" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="1983:4802" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="2078:2339" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="2425:2686" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="2772:3033" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3119:3380" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3472:3733" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="3825:4086" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="4178:4439" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="4531:4792" ph="{...}" />
+                <marker date="1550668408284" expanded="true" signature="4831:4927" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -129,71 +133,251 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/UI/GamingForm.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="1700">
               <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
               <folding>
-                <marker date="1549192955500" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-                <marker date="1549192955500" expanded="false" signature="199:528" ph="..." />
-                <marker date="1549192955500" expanded="true" signature="566:9293" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="607:9291" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="622:675" ph="/// 主要内容 ... " />
-                <marker date="1549192955500" expanded="true" signature="726:795" ph="/// 游戏数据,关卡数,P1生命数,P2生命数 ... " />
-                <marker date="1549192955500" expanded="true" signature="845:897" ph="/// 任务栏 ... " />
-                <marker date="1549192955500" expanded="true" signature="945:1001" ph="/// 玩家一的技能栏 ... " />
-                <marker date="1549192955500" expanded="true" signature="1048:1104" ph="/// 玩家二的技能栏 ... " />
-                <marker date="1549192955500" expanded="true" signature="1152:1210" ph="/// P1的技能图标数组 ... " />
-                <marker date="1549192955500" expanded="true" signature="1282:1340" ph="/// P2的技能图标数组 ... " />
-                <marker date="1549192955500" expanded="true" signature="1412:1466" ph="/// 任务需求量 ... " />
-                <marker date="1549192955500" expanded="true" signature="1514:1571" ph="/// 当前已完成任务量 ... " />
-                <marker date="1549192955500" expanded="true" signature="1619:1720" ph="/// 对UI进行初始化 ... " />
-                <marker date="1549192955500" expanded="true" signature="1776:2122" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="2179:2959" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="2265:2607" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="3034:3147" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="3205:3525" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="3590:3706" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="3775:4290" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="3991:4280" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="4325:4914" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="4924:5078" ph="/// 显示到技能面板 ... " />
-                <marker date="1549192955500" expanded="true" signature="5149:6249" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="5240:6239" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="5302:6225" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="5359:6207" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="5472:5747" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="5605:5717" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="5874:6149" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="6007:6119" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="6259:6622" ph="/// 检查背包的某一格是否为空,如果为空,就设置上技能图标 ... " />
-                <marker date="1549192955500" expanded="true" signature="6773:7186" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="6827:7149" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="7196:7406" ph="/// 清空某一技能格的技能 ... " />
-                <marker date="1549192955500" expanded="true" signature="7491:8001" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="7534:7754" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="7771:7991" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="8011:8186" ph="/// 得到将要被置空的技能名 ... " />
-                <marker date="1549192955500" expanded="true" signature="8250:8350" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="8360:8538" ph="/// 检查将要被置空的技能是否存在 ... " />
-                <marker date="1549192955500" expanded="true" signature="8602:8774" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="8645:8720" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="8813:9285" ph="{...}" />
-                <marker date="1549192955500" expanded="true" signature="8863:9275" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668408293" expanded="false" signature="199:528" ph="..." />
+                <marker date="1550668408293" expanded="true" signature="566:9293" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="607:9291" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="622:675" ph="/// 主要内容 ... " />
+                <marker date="1550668408293" expanded="true" signature="726:795" ph="/// 游戏数据,关卡数,P1生命数,P2生命数 ... " />
+                <marker date="1550668408293" expanded="true" signature="845:897" ph="/// 任务栏 ... " />
+                <marker date="1550668408293" expanded="true" signature="945:1001" ph="/// 玩家一的技能栏 ... " />
+                <marker date="1550668408293" expanded="true" signature="1048:1104" ph="/// 玩家二的技能栏 ... " />
+                <marker date="1550668408293" expanded="true" signature="1152:1210" ph="/// P1的技能图标数组 ... " />
+                <marker date="1550668408293" expanded="true" signature="1282:1340" ph="/// P2的技能图标数组 ... " />
+                <marker date="1550668408293" expanded="true" signature="1412:1466" ph="/// 任务需求量 ... " />
+                <marker date="1550668408293" expanded="true" signature="1514:1571" ph="/// 当前已完成任务量 ... " />
+                <marker date="1550668408293" expanded="true" signature="1619:1720" ph="/// 对UI进行初始化 ... " />
+                <marker date="1550668408293" expanded="true" signature="1776:2122" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="2179:2959" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="2265:2607" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="3034:3147" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="3205:3525" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="3590:3706" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="3775:4290" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="3991:4280" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="4325:4914" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="4924:5078" ph="/// 显示到技能面板 ... " />
+                <marker date="1550668408293" expanded="true" signature="5149:6249" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="5240:6239" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="5302:6225" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="5359:6207" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="5472:5747" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="5605:5717" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="5874:6149" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="6007:6119" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="6259:6622" ph="/// 检查背包的某一格是否为空,如果为空,就设置上技能图标 ... " />
+                <marker date="1550668408293" expanded="true" signature="6773:7186" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="6827:7149" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="7196:7406" ph="/// 清空某一技能格的技能 ... " />
+                <marker date="1550668408293" expanded="true" signature="7491:8001" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="7534:7754" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="7771:7991" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="8011:8186" ph="/// 得到将要被置空的技能名 ... " />
+                <marker date="1550668408293" expanded="true" signature="8250:8350" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="8360:8538" ph="/// 检查将要被置空的技能是否存在 ... " />
+                <marker date="1550668408293" expanded="true" signature="8602:8774" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="8645:8720" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="8813:9285" ph="{...}" />
+                <marker date="1550668408293" expanded="true" signature="8863:9275" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/ProfileMessage/TempData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <marker date="1550668408288" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668408288" expanded="true" signature="293:728" ph="{...}" />
+                <marker date="1550668408288" expanded="true" signature="300:351" ph="/// 用来存档的临时数据类 ... " />
+                <marker date="1550668408288" expanded="true" signature="384:726" ph="{...}" />
+                <marker date="1550668408288" expanded="true" signature="628:683" ph="/// 玩到第几关了 ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Buffs/BuffBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <marker date="1550668942820" expanded="true" signature="0:190" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668942820" expanded="true" signature="256:1499" ph="{...}" />
+                <marker date="1550668942820" expanded="true" signature="283:374" ph="{...}" />
+                <marker date="1550668942820" expanded="true" signature="411:1497" ph="{...}" />
+                <marker date="1550668942820" expanded="true" signature="426:482" ph="/// Buff的Id ... " />
+                <marker date="1550668942820" expanded="true" signature="528:580" ph="/// 计时器 ... " />
+                <marker date="1550668942820" expanded="true" signature="618:707" ph="/// Buff持续时间,我们约定,Buff时间为0,则为瞬时Buff,只执行OnAdd ... " />
+                <marker date="1550668942820" expanded="true" signature="748:803" ph="/// 所归属的实体 ... " />
+                <marker date="1550668942820" expanded="true" signature="952:1114" ph="{...}" />
+                <marker date="1550668942820" expanded="true" signature="1124:1184" ph="/// 当添加到实体时执行逻辑 ... " />
+                <marker date="1550668942820" expanded="true" signature="1220:1240" ph="{...}" />
+                <marker date="1550668942820" expanded="true" signature="1250:1307" ph="/// 跟随实体每帧更新 ... " />
+                <marker date="1550668942820" expanded="true" signature="1346:1366" ph="{...}" />
+                <marker date="1550668942820" expanded="true" signature="1376:1432" ph="/// 当从实体移除时 ... " />
+                <marker date="1550668942820" expanded="true" signature="1471:1491" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Buffs/FreezeBuff.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="46" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <marker date="1550669028952" expanded="true" signature="0:190" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550669028952" expanded="false" signature="198:248" ph="..." />
+                <marker date="1550669028952" expanded="true" signature="289:1122" ph="{...}" />
+                <marker date="1550669028952" expanded="true" signature="296:343" ph="/// 冰冻Buff ... " />
+                <marker date="1550669028952" expanded="true" signature="382:1120" ph="{...}" />
+                <marker date="1550669028952" expanded="true" signature="540:560" ph="{...}" />
+                <marker date="1550669028952" expanded="true" signature="598:693" ph="{...}" />
+                <marker date="1550669028952" expanded="true" signature="735:998" ph="{...}" />
+                <marker date="1550669028952" expanded="true" signature="809:945" ph="{...}" />
+                <marker date="1550669028952" expanded="true" signature="1039:1114" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/ProfileMessage/TempData.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Entities/EntityLogic/EnemyTankLogic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="183">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="61" selection-end-column="92" />
               <folding>
-                <marker date="1549193055534" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-                <marker date="1549193055534" expanded="true" signature="293:728" ph="{...}" />
-                <marker date="1549193055534" expanded="true" signature="300:351" ph="/// 用来存档的临时数据类 ... " />
-                <marker date="1549193055534" expanded="true" signature="384:726" ph="{...}" />
-                <marker date="1549193055534" expanded="true" signature="628:683" ph="/// 玩到第几关了 ... " />
+                <marker date="1550671753803" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550671753803" expanded="false" signature="199:568" ph="..." />
+                <marker date="1550671753803" expanded="true" signature="624:6679" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="631:679" ph="/// 敌人坦克逻辑类 ... " />
+                <marker date="1550671753803" expanded="true" signature="727:6677" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="742:795" ph="/// 坦克数据 ... " />
+                <marker date="1550671753803" expanded="true" signature="864:927" ph="/// 变向计时器,大于4秒变向一次 ... " />
+                <marker date="1550671753803" expanded="true" signature="1187:1649" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="1398:1492" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="1718:2816" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="1886:2402" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="2189:2388" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="2450:2806" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="2673:2792" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="2874:3012" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="3040:3135" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="3172:4953" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="3253:4103" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="3342:3487" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="3522:3663" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="3709:3854" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="3900:4044" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="4120:4211" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="4325:4449" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="4478:4600" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="4715:4814" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="4843:4943" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="4991:5413" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="5102:5403" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="5238:5357" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="5458:5689" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="5728:6085" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="5809:6075" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="5870:6061" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="6095:6150" ph="/// 尝试掉落道具 ... " />
+                <marker date="1550671753803" expanded="true" signature="6184:6671" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="6242:6316" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="6356:6661" ph="{...}" />
+                <marker date="1550671753803" expanded="true" signature="6576:6645" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Entities/EntityLogic/CostumEntityLogic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding>
+                <marker date="1550668408276" expanded="true" signature="0:190" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668408276" expanded="false" signature="198:296" ph="..." />
+                <marker date="1550668408276" expanded="true" signature="324:1960" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="331:397" ph="/// 为了添加Buff设计的自定义EntityLogic ... " />
+                <marker date="1550668408276" expanded="true" signature="446:1958" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="524:576" ph="/// 被冰冻 ... " />
+                <marker date="1550668408276" expanded="true" signature="629:686" ph="/// 是否处于无敌状态 ... " />
+                <marker date="1550668408276" expanded="true" signature="743:798" ph="/// 得到无敌状态 ... " />
+                <marker date="1550668408276" expanded="true" signature="841:861" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="871:926" ph="/// 失去无敌状态 ... " />
+                <marker date="1550668408276" expanded="true" signature="970:990" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="1000:1057" ph="/// 得到钢铁之心状态 ... " />
+                <marker date="1550668408276" expanded="true" signature="1101:1121" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="1139:1196" ph="/// 失去钢铁之心状态 ... " />
+                <marker date="1550668408276" expanded="true" signature="1241:1261" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="1321:1414" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="1502:1610" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="1645:1789" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="1712:1779" ph="{...}" />
+                <marker date="1550668408276" expanded="true" signature="1847:1952" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/Entity/EntityLogic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <marker date="1550668408410" expanded="true" signature="0:284" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668408410" expanded="true" signature="363:5144" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="370:418" ph="/// 实体逻辑基类。 ... " />
+                <marker date="1550668408410" expanded="true" signature="472:5142" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="665:719" ph="/// 获取实体。 ... " />
+                <marker date="1550668408410" expanded="true" signature="748:859" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="774:849" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="869:928" ph="/// 获取或设置实体名称。 ... " />
+                <marker date="1550668408410" expanded="true" signature="955:1144" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="981:1049" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1065:1134" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1154:1212" ph="/// 获取实体是否可用。 ... " />
+                <marker date="1550668408410" expanded="true" signature="1242:1342" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1268:1332" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1352:1413" ph="/// 获取或设置实体是否可见。 ... " />
+                <marker date="1550668408410" expanded="true" signature="1441:1953" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1467:1544" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1560:1943" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1608:1745" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1786:1850" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="1963:2029" ph="/// 获取已缓存的 Transform。 ... " />
+                <marker date="1550668408410" expanded="true" signature="2070:2132" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="2142:2249" ph="/// 实体初始化。 ... " />
+                <marker date="1550668408410" expanded="true" signature="2313:2554" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="2364:2437" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="2564:2670" ph="/// 实体显示。 ... " />
+                <marker date="1550668408410" expanded="true" signature="2734:2814" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="2824:2930" ph="/// 实体隐藏。 ... " />
+                <marker date="1550668408410" expanded="true" signature="2994:3137" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="3147:3371" ph="/// 实体附加子实体。 ... " />
+                <marker date="1550668408410" expanded="true" signature="3491:3512" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="3522:3685" ph="/// 实体解除子实体。 ... " />
+                <marker date="1550668408410" expanded="true" signature="3778:3799" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="3809:4035" ph="/// 实体附加子实体。 ... " />
+                <marker date="1550668408410" expanded="true" signature="4156:4232" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="4242:4407" ph="/// 实体解除子实体。 ... " />
+                <marker date="1550668408410" expanded="true" signature="4503:4583" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="4593:4775" ph="/// 实体轮询。 ... " />
+                <marker date="1550668408410" expanded="true" signature="4870:4891" ph="{...}" />
+                <marker date="1550668408410" expanded="true" signature="4901:5009" ph="/// 设置实体的可见性。 ... " />
+                <marker date="1550668408410" expanded="true" signature="5073:5136" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -202,141 +386,140 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/UI/UIComponent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-574">
+            <state relative-caret-position="11713">
               <caret line="694" selection-start-line="694" selection-end-line="694" />
               <folding>
-                <marker date="1545106116125" expanded="true" signature="0:284" ph="/* ------------------------------------------------------------ ... */" />
-                <marker date="1545106116125" expanded="false" signature="292:445" ph="..." />
-                <marker date="1545106116125" expanded="true" signature="483:23390" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="490:536" ph="/// 界面组件。 ... " />
-                <marker date="1545106116125" expanded="true" signature="681:23388" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="2257:2314" ph="/// 获取界面组数量。 ... " />
-                <marker date="1545106116125" expanded="true" signature="2346:2459" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="2372:2449" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="2469:2545" ph="/// 获取或设置界面实例对象池自动释放可释放对象的间隔秒数。 ... " />
-                <marker date="1545106116125" expanded="true" signature="2594:2863" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="2620:2712" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="2728:2853" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="2873:2938" ph="/// 获取或设置界面实例对象池的容量。 ... " />
-                <marker date="1545106116125" expanded="true" signature="2974:3210" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3000:3081" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3097:3200" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3220:3288" ph="/// 获取或设置界面实例对象池对象过期秒数。 ... " />
-                <marker date="1545106116125" expanded="true" signature="3328:3570" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3354:3437" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3453:3560" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3580:3646" ph="/// 获取或设置界面实例对象池的优先级。 ... " />
-                <marker date="1545106116125" expanded="true" signature="3682:3918" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3708:3789" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3805:3908" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="3928:3987" ph="/// 游戏框架组件初始化。 ... " />
-                <marker date="1545106116125" expanded="true" signature="4027:4635" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="4171:4276" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="4665:7007" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="4797:4906" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="5022:5132" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="5183:5295" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="5312:5438" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="5965:6078" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="6381:6612" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="6745:6997" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="6833:6983" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="7017:7167" ph="/// 是否存在界面组。 ... " />
-                <marker date="1545106116125" expanded="true" signature="7218:7294" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="7304:7452" ph="/// 获取界面组。 ... " />
-                <marker date="1545106116125" expanded="true" signature="7507:7583" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="7593:7688" ph="/// 获取所有界面组。 ... " />
-                <marker date="1545106116125" expanded="true" signature="7731:7800" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="7810:7916" ph="/// 获取所有界面组。 ... " />
-                <marker date="1545106116125" expanded="true" signature="7975:8044" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="8054:8204" ph="/// 增加界面组。 ... " />
-                <marker date="1545106116125" expanded="true" signature="8255:8322" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="8332:8529" ph="/// 增加界面组。 ... " />
-                <marker date="1545106116125" expanded="true" signature="8591:9406" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="8654:8712" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="8881:9001" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="9416:9562" ph="/// 是否存在界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="9606:9678" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="9688:9841" ph="/// 是否存在界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="9895:9974" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="9984:10128" ph="/// 获取界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="10174:10254" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="10264:10415" ph="/// 获取界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="10471:10558" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="10568:10719" ph="/// 获取界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="10778:11101" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="10977:11058" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="11111:11273" ph="/// 获取界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="11350:11760" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="11393:11495" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="11677:11750" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="11770:11871" ph="/// 获取所有已加载的界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="11917:12234" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="12110:12191" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="12244:12356" ph="/// 获取所有已加载的界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="12418:12820" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="12461:12563" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="12737:12810" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="12830:12941" ph="/// 获取所有正在加载界面的序列编号。 ... " />
-                <marker date="1545106116125" expanded="true" signature="12993:13076" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="13086:13208" ph="/// 获取所有正在加载界面的序列编号。 ... " />
-                <marker date="1545106116125" expanded="true" signature="13276:13359" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="13369:13519" ph="/// 是否正在加载界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="13569:13647" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="13657:13814" ph="/// 是否正在加载界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="13874:13959" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="13969:14111" ph="/// 是否是合法的界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="14160:14234" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="14244:14449" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="14523:14634" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="14644:14904" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="14992:15096" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="15106:15376" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="15475:15599" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="15609:15866" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="15957:16072" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="16082:16407" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="16520:16637" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="16647:16959" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="17064:17172" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="17182:17504" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="17620:17748" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="17758:18135" ph="/// 打开界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="18265:18398" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="18408:18517" ph="/// 关闭界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="18563:18630" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="18640:18801" ph="/// 关闭界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="18864:18941" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="18951:19054" ph="/// 关闭界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="19101:19166" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="19176:19331" ph="/// 关闭界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="19395:19470" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="19480:19540" ph="/// 关闭所有已加载的界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="19584:19653" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="19663:19775" ph="/// 关闭所有已加载的界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="19834:19911" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="19921:19982" ph="/// 关闭所有正在加载的界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="20027:20097" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="20107:20210" ph="/// 激活界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="20259:20326" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="20336:20491" ph="/// 激活界面。 ... " />
-                <marker date="1545106116125" expanded="true" signature="20557:20634" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="20644:20807" ph="/// 设置界面是否被加锁。 ... " />
-                <marker date="1545106116125" expanded="true" signature="20879:21112" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="20921:21025" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="21122:21282" ph="/// 设置界面的优先级。 ... " />
-                <marker date="1545106116125" expanded="true" signature="21357:21594" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="21399:21503" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="21698:21900" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="21756:21890" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="22004:22428" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="22284:22418" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="22530:22730" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="22587:22720" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="22850:23068" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="22916:23058" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="23176:23382" ph="{...}" />
-                <marker date="1545106116125" expanded="true" signature="23236:23372" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="0:284" ph="/* ------------------------------------------------------------ ... */" />
+                <marker date="1550668408452" expanded="true" signature="483:23390" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="490:536" ph="/// 界面组件。 ... " />
+                <marker date="1550668408452" expanded="true" signature="681:23388" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="2257:2314" ph="/// 获取界面组数量。 ... " />
+                <marker date="1550668408452" expanded="true" signature="2346:2459" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="2372:2449" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="2469:2545" ph="/// 获取或设置界面实例对象池自动释放可释放对象的间隔秒数。 ... " />
+                <marker date="1550668408452" expanded="true" signature="2594:2863" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="2620:2712" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="2728:2853" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="2873:2938" ph="/// 获取或设置界面实例对象池的容量。 ... " />
+                <marker date="1550668408452" expanded="true" signature="2974:3210" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3000:3081" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3097:3200" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3220:3288" ph="/// 获取或设置界面实例对象池对象过期秒数。 ... " />
+                <marker date="1550668408452" expanded="true" signature="3328:3570" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3354:3437" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3453:3560" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3580:3646" ph="/// 获取或设置界面实例对象池的优先级。 ... " />
+                <marker date="1550668408452" expanded="true" signature="3682:3918" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3708:3789" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3805:3908" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="3928:3987" ph="/// 游戏框架组件初始化。 ... " />
+                <marker date="1550668408452" expanded="true" signature="4027:4635" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="4171:4276" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="4665:7007" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="4797:4906" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="5022:5132" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="5183:5295" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="5312:5438" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="5965:6078" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="6381:6612" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="6745:6997" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="6833:6983" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="7017:7167" ph="/// 是否存在界面组。 ... " />
+                <marker date="1550668408452" expanded="true" signature="7218:7294" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="7304:7452" ph="/// 获取界面组。 ... " />
+                <marker date="1550668408452" expanded="true" signature="7507:7583" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="7593:7688" ph="/// 获取所有界面组。 ... " />
+                <marker date="1550668408452" expanded="true" signature="7731:7800" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="7810:7916" ph="/// 获取所有界面组。 ... " />
+                <marker date="1550668408452" expanded="true" signature="7975:8044" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="8054:8204" ph="/// 增加界面组。 ... " />
+                <marker date="1550668408452" expanded="true" signature="8255:8322" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="8332:8529" ph="/// 增加界面组。 ... " />
+                <marker date="1550668408452" expanded="true" signature="8591:9406" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="8654:8712" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="8881:9001" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="9416:9562" ph="/// 是否存在界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="9606:9678" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="9688:9841" ph="/// 是否存在界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="9895:9974" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="9984:10128" ph="/// 获取界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="10174:10254" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="10264:10415" ph="/// 获取界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="10471:10558" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="10568:10719" ph="/// 获取界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="10778:11101" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="10977:11058" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="11111:11273" ph="/// 获取界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="11350:11760" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="11393:11495" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="11677:11750" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="11770:11871" ph="/// 获取所有已加载的界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="11917:12234" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="12110:12191" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="12244:12356" ph="/// 获取所有已加载的界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="12418:12820" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="12461:12563" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="12737:12810" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="12830:12941" ph="/// 获取所有正在加载界面的序列编号。 ... " />
+                <marker date="1550668408452" expanded="true" signature="12993:13076" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="13086:13208" ph="/// 获取所有正在加载界面的序列编号。 ... " />
+                <marker date="1550668408452" expanded="true" signature="13276:13359" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="13369:13519" ph="/// 是否正在加载界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="13569:13647" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="13657:13814" ph="/// 是否正在加载界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="13874:13959" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="13969:14111" ph="/// 是否是合法的界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="14160:14234" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="14244:14449" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="14523:14634" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="14644:14904" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="14992:15096" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="15106:15376" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="15475:15599" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="15609:15866" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="15957:16072" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="16082:16407" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="16520:16637" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="16647:16959" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="17064:17172" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="17182:17504" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="17620:17748" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="17758:18135" ph="/// 打开界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="18265:18398" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="18408:18517" ph="/// 关闭界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="18563:18630" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="18640:18801" ph="/// 关闭界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="18864:18941" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="18951:19054" ph="/// 关闭界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="19101:19166" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="19176:19331" ph="/// 关闭界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="19395:19470" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="19480:19540" ph="/// 关闭所有已加载的界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="19584:19653" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="19663:19775" ph="/// 关闭所有已加载的界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="19834:19911" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="19921:19982" ph="/// 关闭所有正在加载的界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="20027:20097" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="20107:20210" ph="/// 激活界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="20259:20326" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="20336:20491" ph="/// 激活界面。 ... " />
+                <marker date="1550668408452" expanded="true" signature="20557:20634" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="20644:20807" ph="/// 设置界面是否被加锁。 ... " />
+                <marker date="1550668408452" expanded="true" signature="20879:21112" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="20921:21025" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="21122:21282" ph="/// 设置界面的优先级。 ... " />
+                <marker date="1550668408452" expanded="true" signature="21357:21594" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="21399:21503" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="21698:21900" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="21756:21890" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="22004:22428" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="22284:22418" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="22530:22730" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="22587:22720" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="22850:23068" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="22916:23058" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="23176:23382" ph="{...}" />
+                <marker date="1550668408452" expanded="true" signature="23236:23372" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -348,17 +531,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/UI/UIComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/UI/GamingForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Buffs/BuffBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Games/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Games/SkillManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/Entity/EntityLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Entities/EntityLogic/EnemyTankLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Buffs/FreezeBuff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/UI/UIComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/ProfileMessage/TempData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Entities/EntityLogic/CostumEntityLogic.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/UI/GamingForm.cs" />
         <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/ProfileMessage/TempData.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Entities/EntityLogic/EnemyTankLogic.cs" />
       </list>
     </option>
   </component>
@@ -368,9 +557,9 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="106" />
-    <option name="y" value="18" />
-    <option name="width" value="974" />
+    <option name="x" value="60" />
+    <option name="y" value="77" />
+    <option name="width" value="1500" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -378,8 +567,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -396,13 +588,29 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="GameMain" type="1045f7f1:UnityExplorerNode" />
-              <item name="DataTables" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="GameMain" type="1045f7f1:UnityExplorerNode" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Buffs" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="GameMain" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Entities" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="GameMain" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Entities" type="1045f7f1:UnityExplorerNode" />
+              <item name="EntityLogic" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -432,9 +640,7 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
+        <option name="show-project-names" value="true" />
       </pane>
     </panes>
   </component>
@@ -483,6 +689,9 @@
       <option name="presentableId" value="Default" />
       <updated>1549192703523</updated>
       <workItem from="1549192712652" duration="571000" />
+      <workItem from="1550670653574" duration="1008000" />
+      <workItem from="1550671684382" duration="76000" />
+      <workItem from="1550671823981" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Bug修复">
       <created>1549193125029</created>
@@ -495,7 +704,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="571000" />
+    <option name="totallyTimeSpent" value="1672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,24 +717,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15831557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -533,14 +732,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="NuGet" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32925472" />
+      <window_info anchor="bottom" id="Unity" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,324 +773,491 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/UI/UIComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
-          <caret line="694" selection-start-line="694" selection-end-line="694" />
-          <folding>
-            <marker date="1545106116125" expanded="true" signature="0:284" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1545106116125" expanded="false" signature="292:445" ph="..." />
-            <marker date="1545106116125" expanded="true" signature="483:23390" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="490:536" ph="/// 界面组件。 ... " />
-            <marker date="1545106116125" expanded="true" signature="681:23388" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="2257:2314" ph="/// 获取界面组数量。 ... " />
-            <marker date="1545106116125" expanded="true" signature="2346:2459" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="2372:2449" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="2469:2545" ph="/// 获取或设置界面实例对象池自动释放可释放对象的间隔秒数。 ... " />
-            <marker date="1545106116125" expanded="true" signature="2594:2863" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="2620:2712" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="2728:2853" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="2873:2938" ph="/// 获取或设置界面实例对象池的容量。 ... " />
-            <marker date="1545106116125" expanded="true" signature="2974:3210" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3000:3081" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3097:3200" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3220:3288" ph="/// 获取或设置界面实例对象池对象过期秒数。 ... " />
-            <marker date="1545106116125" expanded="true" signature="3328:3570" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3354:3437" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3453:3560" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3580:3646" ph="/// 获取或设置界面实例对象池的优先级。 ... " />
-            <marker date="1545106116125" expanded="true" signature="3682:3918" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3708:3789" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3805:3908" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="3928:3987" ph="/// 游戏框架组件初始化。 ... " />
-            <marker date="1545106116125" expanded="true" signature="4027:4635" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="4171:4276" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="4665:7007" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="4797:4906" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="5022:5132" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="5183:5295" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="5312:5438" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="5965:6078" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="6381:6612" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="6745:6997" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="6833:6983" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="7017:7167" ph="/// 是否存在界面组。 ... " />
-            <marker date="1545106116125" expanded="true" signature="7218:7294" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="7304:7452" ph="/// 获取界面组。 ... " />
-            <marker date="1545106116125" expanded="true" signature="7507:7583" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="7593:7688" ph="/// 获取所有界面组。 ... " />
-            <marker date="1545106116125" expanded="true" signature="7731:7800" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="7810:7916" ph="/// 获取所有界面组。 ... " />
-            <marker date="1545106116125" expanded="true" signature="7975:8044" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="8054:8204" ph="/// 增加界面组。 ... " />
-            <marker date="1545106116125" expanded="true" signature="8255:8322" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="8332:8529" ph="/// 增加界面组。 ... " />
-            <marker date="1545106116125" expanded="true" signature="8591:9406" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="8654:8712" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="8881:9001" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="9416:9562" ph="/// 是否存在界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="9606:9678" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="9688:9841" ph="/// 是否存在界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="9895:9974" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="9984:10128" ph="/// 获取界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="10174:10254" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="10264:10415" ph="/// 获取界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="10471:10558" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="10568:10719" ph="/// 获取界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="10778:11101" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="10977:11058" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="11111:11273" ph="/// 获取界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="11350:11760" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="11393:11495" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="11677:11750" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="11770:11871" ph="/// 获取所有已加载的界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="11917:12234" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="12110:12191" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="12244:12356" ph="/// 获取所有已加载的界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="12418:12820" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="12461:12563" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="12737:12810" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="12830:12941" ph="/// 获取所有正在加载界面的序列编号。 ... " />
-            <marker date="1545106116125" expanded="true" signature="12993:13076" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="13086:13208" ph="/// 获取所有正在加载界面的序列编号。 ... " />
-            <marker date="1545106116125" expanded="true" signature="13276:13359" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="13369:13519" ph="/// 是否正在加载界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="13569:13647" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="13657:13814" ph="/// 是否正在加载界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="13874:13959" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="13969:14111" ph="/// 是否是合法的界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="14160:14234" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="14244:14449" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="14523:14634" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="14644:14904" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="14992:15096" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="15106:15376" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="15475:15599" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="15609:15866" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="15957:16072" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="16082:16407" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="16520:16637" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="16647:16959" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="17064:17172" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="17182:17504" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="17620:17748" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="17758:18135" ph="/// 打开界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="18265:18398" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="18408:18517" ph="/// 关闭界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="18563:18630" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="18640:18801" ph="/// 关闭界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="18864:18941" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="18951:19054" ph="/// 关闭界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="19101:19166" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="19176:19331" ph="/// 关闭界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="19395:19470" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="19480:19540" ph="/// 关闭所有已加载的界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="19584:19653" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="19663:19775" ph="/// 关闭所有已加载的界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="19834:19911" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="19921:19982" ph="/// 关闭所有正在加载的界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="20027:20097" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="20107:20210" ph="/// 激活界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="20259:20326" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="20336:20491" ph="/// 激活界面。 ... " />
-            <marker date="1545106116125" expanded="true" signature="20557:20634" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="20644:20807" ph="/// 设置界面是否被加锁。 ... " />
-            <marker date="1545106116125" expanded="true" signature="20879:21112" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="20921:21025" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="21122:21282" ph="/// 设置界面的优先级。 ... " />
-            <marker date="1545106116125" expanded="true" signature="21357:21594" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="21399:21503" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="21698:21900" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="21756:21890" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="22004:22428" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="22284:22418" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="22530:22730" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="22587:22720" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="22850:23068" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="22916:23058" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="23176:23382" ph="{...}" />
-            <marker date="1545106116125" expanded="true" signature="23236:23372" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Games/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2196">
+        <state>
           <folding>
-            <marker date="1549185960579" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1549185960579" expanded="false" signature="199:874" ph="..." />
-            <marker date="1549185960579" expanded="true" signature="915:13620" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="922:968" ph="/// 游戏逻辑类 ... " />
-            <marker date="1549185960579" expanded="true" signature="997:13618" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="1012:1075" ph="/// 从asset文件拿到技能图标 ... " />
-            <marker date="1549185960579" expanded="true" signature="1149:1209" ph="/// 加载图标成功的回调函数 ... " />
-            <marker date="1549185960579" expanded="true" signature="1341:1422" ph="/// 加载实体成功标识字典,int为id,bool为成功与否的布尔类型 ... " />
-            <marker date="1549185960579" expanded="true" signature="1514:1570" ph="/// 游戏流程的引用 ... " />
-            <marker date="1549185960579" expanded="true" signature="1626:1685" ph="/// 加载实体已全部完成1 ... " />
-            <marker date="1549185960579" expanded="true" signature="1729:1785" ph="/// 生成敌人计时器 ... " />
-            <marker date="1549185960579" expanded="true" signature="1836:1892" ph="/// 敌人出生点数组 ... " />
-            <marker date="1549185960579" expanded="true" signature="1962:2020" ph="/// 已经点击了退出按钮 ... " />
-            <marker date="1549185960579" expanded="true" signature="2095:2172" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="2201:2724" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="2799:3848" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="3001:3124" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="3141:3838" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="3198:3500" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="3381:3480" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="3521:3824" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="3704:3804" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="3913:5010" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="4002:4623" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="4640:5000" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="4762:4984" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="5059:5462" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="5496:5699" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="5729:6887" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="5769:6276" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="5901:6052" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="5958:6034" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="6360:6850" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="6528:6834" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="6933:7205" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="7251:7345" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="7374:7546" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="7665:7737" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="7813:8023" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="8065:8236" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="8115:8226" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="8271:8812" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="8378:8802" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="8555:8747" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="8822:8875" ph="/// 生成玩家 ... " />
-            <marker date="1549185960579" expanded="true" signature="8909:9896" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="9005:9279" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="9172:9263" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="9296:9886" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="9463:9554" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="9778:9870" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="9906:9963" ph="/// 创建普通地图部分 ... " />
-            <marker date="1549185960579" expanded="true" signature="9993:11759" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="10044:10706" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="10103:10692" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="10243:10674" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="10440:10573" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="10765:11237" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="10824:11223" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="11004:11130" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="11278:11749" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="11337:11735" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="11517:11642" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="11769:11823" ph="/// 初始化家园 ... " />
-            <marker date="1549185960579" expanded="true" signature="11855:13612" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="12003:12087" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="12292:12377" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="12582:12667" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="12872:12957" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="13162:13246" ph="{...}" />
-            <marker date="1549185960579" expanded="true" signature="13451:13535" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668408284" expanded="false" signature="199:874" ph="..." />
+            <marker date="1550668408284" expanded="true" signature="915:13620" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="922:968" ph="/// 游戏逻辑类 ... " />
+            <marker date="1550668408284" expanded="true" signature="997:13618" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="1012:1075" ph="/// 从asset文件拿到技能图标 ... " />
+            <marker date="1550668408284" expanded="true" signature="1149:1209" ph="/// 加载图标成功的回调函数 ... " />
+            <marker date="1550668408284" expanded="true" signature="1341:1422" ph="/// 加载实体成功标识字典,int为id,bool为成功与否的布尔类型 ... " />
+            <marker date="1550668408284" expanded="true" signature="1514:1570" ph="/// 游戏流程的引用 ... " />
+            <marker date="1550668408284" expanded="true" signature="1626:1685" ph="/// 加载实体已全部完成1 ... " />
+            <marker date="1550668408284" expanded="true" signature="1729:1785" ph="/// 生成敌人计时器 ... " />
+            <marker date="1550668408284" expanded="true" signature="1836:1892" ph="/// 敌人出生点数组 ... " />
+            <marker date="1550668408284" expanded="true" signature="1962:2020" ph="/// 已经点击了退出按钮 ... " />
+            <marker date="1550668408284" expanded="true" signature="2095:2172" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="2201:2724" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="2799:3848" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3001:3124" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3141:3838" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3198:3500" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3381:3480" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3521:3824" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3704:3804" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3913:5010" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="4002:4623" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="4640:5000" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="4762:4984" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="5059:5462" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="5496:5699" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="5729:6887" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="5769:6276" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="5901:6052" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="5958:6034" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="6360:6850" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="6528:6834" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="6933:7205" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="7251:7345" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="7374:7546" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="7665:7737" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="7813:8023" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="8065:8236" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="8115:8226" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="8271:8812" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="8378:8802" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="8555:8747" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="8822:8875" ph="/// 生成玩家 ... " />
+            <marker date="1550668408284" expanded="true" signature="8909:9896" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="9005:9279" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="9172:9263" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="9296:9886" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="9463:9554" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="9778:9870" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="9906:9963" ph="/// 创建普通地图部分 ... " />
+            <marker date="1550668408284" expanded="true" signature="9993:11759" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="10044:10706" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="10103:10692" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="10243:10674" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="10440:10573" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="10765:11237" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="10824:11223" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="11004:11130" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="11278:11749" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="11337:11735" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="11517:11642" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="11769:11823" ph="/// 初始化家园 ... " />
+            <marker date="1550668408284" expanded="true" signature="11855:13612" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="12003:12087" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="12292:12377" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="12582:12667" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="12872:12957" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="13162:13246" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="13451:13535" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Games/SkillManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="204">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
-            <marker date="1549087306023" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1549087306023" expanded="false" signature="199:486" ph="..." />
-            <marker date="1549087306023" expanded="true" signature="527:4935" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="534:580" ph="/// 技能管理类 ... " />
-            <marker date="1549087306023" expanded="true" signature="610:4933" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="625:683" ph="/// 拿到游戏流程的引用 ... " />
-            <marker date="1549087306023" expanded="true" signature="740:800" ph="/// 拿到游戏界面UI的引用 ... " />
-            <marker date="1549087306023" expanded="true" signature="851:907" ph="/// 玩家一的技能栏 ... " />
-            <marker date="1549087306023" expanded="true" signature="961:1017" ph="/// 玩家二的技能栏 ... " />
-            <marker date="1549087306023" expanded="true" signature="1107:1241" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="1251:1305" ph="/// 初始化数据 ... " />
-            <marker date="1549087306023" expanded="true" signature="1332:1534" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="1544:1747" ph="/// 显示到技能栏上面 ... " />
-            <marker date="1549087306023" expanded="true" signature="1812:1953" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="1983:4802" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="2078:2339" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="2425:2686" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="2772:3033" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="3119:3380" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="3472:3733" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="3825:4086" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="4178:4439" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="4531:4792" ph="{...}" />
-            <marker date="1549087306023" expanded="true" signature="4831:4927" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668408284" expanded="false" signature="199:486" ph="..." />
+            <marker date="1550668408284" expanded="true" signature="534:580" ph="/// 技能管理类 ... " />
+            <marker date="1550668408284" expanded="true" signature="610:4933" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="625:683" ph="/// 拿到游戏流程的引用 ... " />
+            <marker date="1550668408284" expanded="true" signature="740:800" ph="/// 拿到游戏界面UI的引用 ... " />
+            <marker date="1550668408284" expanded="true" signature="851:907" ph="/// 玩家一的技能栏 ... " />
+            <marker date="1550668408284" expanded="true" signature="961:1017" ph="/// 玩家二的技能栏 ... " />
+            <marker date="1550668408284" expanded="true" signature="1107:1241" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="1251:1305" ph="/// 初始化数据 ... " />
+            <marker date="1550668408284" expanded="true" signature="1332:1534" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="1544:1747" ph="/// 显示到技能栏上面 ... " />
+            <marker date="1550668408284" expanded="true" signature="1812:1953" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="1983:4802" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="2078:2339" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="2425:2686" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="2772:3033" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3119:3380" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3472:3733" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="3825:4086" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="4178:4439" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="4531:4792" ph="{...}" />
+            <marker date="1550668408284" expanded="true" signature="4831:4927" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/UI/GamingForm.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="1700">
           <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
           <folding>
-            <marker date="1549192955500" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1549192955500" expanded="false" signature="199:528" ph="..." />
-            <marker date="1549192955500" expanded="true" signature="566:9293" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="607:9291" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="622:675" ph="/// 主要内容 ... " />
-            <marker date="1549192955500" expanded="true" signature="726:795" ph="/// 游戏数据,关卡数,P1生命数,P2生命数 ... " />
-            <marker date="1549192955500" expanded="true" signature="845:897" ph="/// 任务栏 ... " />
-            <marker date="1549192955500" expanded="true" signature="945:1001" ph="/// 玩家一的技能栏 ... " />
-            <marker date="1549192955500" expanded="true" signature="1048:1104" ph="/// 玩家二的技能栏 ... " />
-            <marker date="1549192955500" expanded="true" signature="1152:1210" ph="/// P1的技能图标数组 ... " />
-            <marker date="1549192955500" expanded="true" signature="1282:1340" ph="/// P2的技能图标数组 ... " />
-            <marker date="1549192955500" expanded="true" signature="1412:1466" ph="/// 任务需求量 ... " />
-            <marker date="1549192955500" expanded="true" signature="1514:1571" ph="/// 当前已完成任务量 ... " />
-            <marker date="1549192955500" expanded="true" signature="1619:1720" ph="/// 对UI进行初始化 ... " />
-            <marker date="1549192955500" expanded="true" signature="1776:2122" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="2179:2959" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="2265:2607" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="3034:3147" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="3205:3525" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="3590:3706" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="3775:4290" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="3991:4280" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="4325:4914" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="4924:5078" ph="/// 显示到技能面板 ... " />
-            <marker date="1549192955500" expanded="true" signature="5149:6249" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="5240:6239" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="5302:6225" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="5359:6207" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="5472:5747" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="5605:5717" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="5874:6149" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="6007:6119" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="6259:6622" ph="/// 检查背包的某一格是否为空,如果为空,就设置上技能图标 ... " />
-            <marker date="1549192955500" expanded="true" signature="6773:7186" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="6827:7149" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="7196:7406" ph="/// 清空某一技能格的技能 ... " />
-            <marker date="1549192955500" expanded="true" signature="7491:8001" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="7534:7754" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="7771:7991" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="8011:8186" ph="/// 得到将要被置空的技能名 ... " />
-            <marker date="1549192955500" expanded="true" signature="8250:8350" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="8360:8538" ph="/// 检查将要被置空的技能是否存在 ... " />
-            <marker date="1549192955500" expanded="true" signature="8602:8774" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="8645:8720" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="8813:9285" ph="{...}" />
-            <marker date="1549192955500" expanded="true" signature="8863:9275" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668408293" expanded="false" signature="199:528" ph="..." />
+            <marker date="1550668408293" expanded="true" signature="607:9291" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="622:675" ph="/// 主要内容 ... " />
+            <marker date="1550668408293" expanded="true" signature="726:795" ph="/// 游戏数据,关卡数,P1生命数,P2生命数 ... " />
+            <marker date="1550668408293" expanded="true" signature="845:897" ph="/// 任务栏 ... " />
+            <marker date="1550668408293" expanded="true" signature="945:1001" ph="/// 玩家一的技能栏 ... " />
+            <marker date="1550668408293" expanded="true" signature="1048:1104" ph="/// 玩家二的技能栏 ... " />
+            <marker date="1550668408293" expanded="true" signature="1152:1210" ph="/// P1的技能图标数组 ... " />
+            <marker date="1550668408293" expanded="true" signature="1282:1340" ph="/// P2的技能图标数组 ... " />
+            <marker date="1550668408293" expanded="true" signature="1412:1466" ph="/// 任务需求量 ... " />
+            <marker date="1550668408293" expanded="true" signature="1514:1571" ph="/// 当前已完成任务量 ... " />
+            <marker date="1550668408293" expanded="true" signature="1619:1720" ph="/// 对UI进行初始化 ... " />
+            <marker date="1550668408293" expanded="true" signature="1776:2122" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="2179:2959" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="2265:2607" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="3034:3147" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="3205:3525" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="3590:3706" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="3775:4290" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="3991:4280" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="4325:4914" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="4924:5078" ph="/// 显示到技能面板 ... " />
+            <marker date="1550668408293" expanded="true" signature="5149:6249" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="5240:6239" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="5302:6225" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="5359:6207" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="5472:5747" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="5605:5717" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="5874:6149" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="6007:6119" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="6259:6622" ph="/// 检查背包的某一格是否为空,如果为空,就设置上技能图标 ... " />
+            <marker date="1550668408293" expanded="true" signature="6773:7186" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="6827:7149" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="7196:7406" ph="/// 清空某一技能格的技能 ... " />
+            <marker date="1550668408293" expanded="true" signature="7491:8001" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="7534:7754" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="7771:7991" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="8011:8186" ph="/// 得到将要被置空的技能名 ... " />
+            <marker date="1550668408293" expanded="true" signature="8250:8350" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="8360:8538" ph="/// 检查将要被置空的技能是否存在 ... " />
+            <marker date="1550668408293" expanded="true" signature="8602:8774" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="8645:8720" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="8813:9285" ph="{...}" />
+            <marker date="1550668408293" expanded="true" signature="8863:9275" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/ProfileMessage/TempData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="357">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
-            <marker date="1549193055534" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
-            <marker date="1549193055534" expanded="true" signature="293:728" ph="{...}" />
-            <marker date="1549193055534" expanded="true" signature="300:351" ph="/// 用来存档的临时数据类 ... " />
-            <marker date="1549193055534" expanded="true" signature="384:726" ph="{...}" />
-            <marker date="1549193055534" expanded="true" signature="628:683" ph="/// 玩到第几关了 ... " />
+            <marker date="1550668408288" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668408288" expanded="true" signature="293:728" ph="{...}" />
+            <marker date="1550668408288" expanded="true" signature="300:351" ph="/// 用来存档的临时数据类 ... " />
+            <marker date="1550668408288" expanded="true" signature="384:726" ph="{...}" />
+            <marker date="1550668408288" expanded="true" signature="628:683" ph="/// 玩到第几关了 ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Buffs/BuffBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1550668942820" expanded="true" signature="0:190" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668942820" expanded="true" signature="256:1499" ph="{...}" />
+            <marker date="1550668942820" expanded="true" signature="283:374" ph="{...}" />
+            <marker date="1550668942820" expanded="true" signature="411:1497" ph="{...}" />
+            <marker date="1550668942820" expanded="true" signature="426:482" ph="/// Buff的Id ... " />
+            <marker date="1550668942820" expanded="true" signature="528:580" ph="/// 计时器 ... " />
+            <marker date="1550668942820" expanded="true" signature="618:707" ph="/// Buff持续时间,我们约定,Buff时间为0,则为瞬时Buff,只执行OnAdd ... " />
+            <marker date="1550668942820" expanded="true" signature="748:803" ph="/// 所归属的实体 ... " />
+            <marker date="1550668942820" expanded="true" signature="952:1114" ph="{...}" />
+            <marker date="1550668942820" expanded="true" signature="1124:1184" ph="/// 当添加到实体时执行逻辑 ... " />
+            <marker date="1550668942820" expanded="true" signature="1220:1240" ph="{...}" />
+            <marker date="1550668942820" expanded="true" signature="1250:1307" ph="/// 跟随实体每帧更新 ... " />
+            <marker date="1550668942820" expanded="true" signature="1346:1366" ph="{...}" />
+            <marker date="1550668942820" expanded="true" signature="1376:1432" ph="/// 当从实体移除时 ... " />
+            <marker date="1550668942820" expanded="true" signature="1471:1491" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Buffs/FreezeBuff.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="46" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <marker date="1550669028952" expanded="true" signature="0:190" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550669028952" expanded="false" signature="198:248" ph="..." />
+            <marker date="1550669028952" expanded="true" signature="289:1122" ph="{...}" />
+            <marker date="1550669028952" expanded="true" signature="296:343" ph="/// 冰冻Buff ... " />
+            <marker date="1550669028952" expanded="true" signature="382:1120" ph="{...}" />
+            <marker date="1550669028952" expanded="true" signature="540:560" ph="{...}" />
+            <marker date="1550669028952" expanded="true" signature="598:693" ph="{...}" />
+            <marker date="1550669028952" expanded="true" signature="735:998" ph="{...}" />
+            <marker date="1550669028952" expanded="true" signature="809:945" ph="{...}" />
+            <marker date="1550669028952" expanded="true" signature="1039:1114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Entities/EntityLogic/CostumEntityLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <marker date="1550668408276" expanded="true" signature="0:190" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668408276" expanded="false" signature="198:296" ph="..." />
+            <marker date="1550668408276" expanded="true" signature="324:1960" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="331:397" ph="/// 为了添加Buff设计的自定义EntityLogic ... " />
+            <marker date="1550668408276" expanded="true" signature="446:1958" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="524:576" ph="/// 被冰冻 ... " />
+            <marker date="1550668408276" expanded="true" signature="629:686" ph="/// 是否处于无敌状态 ... " />
+            <marker date="1550668408276" expanded="true" signature="743:798" ph="/// 得到无敌状态 ... " />
+            <marker date="1550668408276" expanded="true" signature="841:861" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="871:926" ph="/// 失去无敌状态 ... " />
+            <marker date="1550668408276" expanded="true" signature="970:990" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="1000:1057" ph="/// 得到钢铁之心状态 ... " />
+            <marker date="1550668408276" expanded="true" signature="1101:1121" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="1139:1196" ph="/// 失去钢铁之心状态 ... " />
+            <marker date="1550668408276" expanded="true" signature="1241:1261" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="1321:1414" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="1502:1610" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="1645:1789" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="1712:1779" ph="{...}" />
+            <marker date="1550668408276" expanded="true" signature="1847:1952" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/Entity/EntityLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <marker date="1550668408410" expanded="true" signature="0:284" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668408410" expanded="true" signature="363:5144" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="370:418" ph="/// 实体逻辑基类。 ... " />
+            <marker date="1550668408410" expanded="true" signature="472:5142" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="665:719" ph="/// 获取实体。 ... " />
+            <marker date="1550668408410" expanded="true" signature="748:859" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="774:849" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="869:928" ph="/// 获取或设置实体名称。 ... " />
+            <marker date="1550668408410" expanded="true" signature="955:1144" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="981:1049" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1065:1134" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1154:1212" ph="/// 获取实体是否可用。 ... " />
+            <marker date="1550668408410" expanded="true" signature="1242:1342" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1268:1332" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1352:1413" ph="/// 获取或设置实体是否可见。 ... " />
+            <marker date="1550668408410" expanded="true" signature="1441:1953" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1467:1544" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1560:1943" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1608:1745" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1786:1850" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="1963:2029" ph="/// 获取已缓存的 Transform。 ... " />
+            <marker date="1550668408410" expanded="true" signature="2070:2132" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="2142:2249" ph="/// 实体初始化。 ... " />
+            <marker date="1550668408410" expanded="true" signature="2313:2554" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="2364:2437" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="2564:2670" ph="/// 实体显示。 ... " />
+            <marker date="1550668408410" expanded="true" signature="2734:2814" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="2824:2930" ph="/// 实体隐藏。 ... " />
+            <marker date="1550668408410" expanded="true" signature="2994:3137" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="3147:3371" ph="/// 实体附加子实体。 ... " />
+            <marker date="1550668408410" expanded="true" signature="3491:3512" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="3522:3685" ph="/// 实体解除子实体。 ... " />
+            <marker date="1550668408410" expanded="true" signature="3778:3799" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="3809:4035" ph="/// 实体附加子实体。 ... " />
+            <marker date="1550668408410" expanded="true" signature="4156:4232" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="4242:4407" ph="/// 实体解除子实体。 ... " />
+            <marker date="1550668408410" expanded="true" signature="4503:4583" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="4593:4775" ph="/// 实体轮询。 ... " />
+            <marker date="1550668408410" expanded="true" signature="4870:4891" ph="{...}" />
+            <marker date="1550668408410" expanded="true" signature="4901:5009" ph="/// 设置实体的可见性。 ... " />
+            <marker date="1550668408410" expanded="true" signature="5073:5136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UGF/Scripts/Runtime/UI/UIComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11713">
+          <caret line="694" selection-start-line="694" selection-end-line="694" />
+          <folding>
+            <marker date="1550668408452" expanded="true" signature="0:284" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550668408452" expanded="true" signature="483:23390" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="490:536" ph="/// 界面组件。 ... " />
+            <marker date="1550668408452" expanded="true" signature="681:23388" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="2257:2314" ph="/// 获取界面组数量。 ... " />
+            <marker date="1550668408452" expanded="true" signature="2346:2459" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="2372:2449" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="2469:2545" ph="/// 获取或设置界面实例对象池自动释放可释放对象的间隔秒数。 ... " />
+            <marker date="1550668408452" expanded="true" signature="2594:2863" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="2620:2712" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="2728:2853" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="2873:2938" ph="/// 获取或设置界面实例对象池的容量。 ... " />
+            <marker date="1550668408452" expanded="true" signature="2974:3210" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3000:3081" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3097:3200" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3220:3288" ph="/// 获取或设置界面实例对象池对象过期秒数。 ... " />
+            <marker date="1550668408452" expanded="true" signature="3328:3570" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3354:3437" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3453:3560" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3580:3646" ph="/// 获取或设置界面实例对象池的优先级。 ... " />
+            <marker date="1550668408452" expanded="true" signature="3682:3918" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3708:3789" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3805:3908" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="3928:3987" ph="/// 游戏框架组件初始化。 ... " />
+            <marker date="1550668408452" expanded="true" signature="4027:4635" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="4171:4276" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="4665:7007" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="4797:4906" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="5022:5132" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="5183:5295" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="5312:5438" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="5965:6078" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="6381:6612" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="6745:6997" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="6833:6983" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="7017:7167" ph="/// 是否存在界面组。 ... " />
+            <marker date="1550668408452" expanded="true" signature="7218:7294" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="7304:7452" ph="/// 获取界面组。 ... " />
+            <marker date="1550668408452" expanded="true" signature="7507:7583" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="7593:7688" ph="/// 获取所有界面组。 ... " />
+            <marker date="1550668408452" expanded="true" signature="7731:7800" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="7810:7916" ph="/// 获取所有界面组。 ... " />
+            <marker date="1550668408452" expanded="true" signature="7975:8044" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="8054:8204" ph="/// 增加界面组。 ... " />
+            <marker date="1550668408452" expanded="true" signature="8255:8322" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="8332:8529" ph="/// 增加界面组。 ... " />
+            <marker date="1550668408452" expanded="true" signature="8591:9406" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="8654:8712" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="8881:9001" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="9416:9562" ph="/// 是否存在界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="9606:9678" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="9688:9841" ph="/// 是否存在界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="9895:9974" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="9984:10128" ph="/// 获取界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="10174:10254" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="10264:10415" ph="/// 获取界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="10471:10558" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="10568:10719" ph="/// 获取界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="10778:11101" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="10977:11058" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="11111:11273" ph="/// 获取界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="11350:11760" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="11393:11495" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="11677:11750" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="11770:11871" ph="/// 获取所有已加载的界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="11917:12234" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="12110:12191" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="12244:12356" ph="/// 获取所有已加载的界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="12418:12820" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="12461:12563" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="12737:12810" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="12830:12941" ph="/// 获取所有正在加载界面的序列编号。 ... " />
+            <marker date="1550668408452" expanded="true" signature="12993:13076" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="13086:13208" ph="/// 获取所有正在加载界面的序列编号。 ... " />
+            <marker date="1550668408452" expanded="true" signature="13276:13359" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="13369:13519" ph="/// 是否正在加载界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="13569:13647" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="13657:13814" ph="/// 是否正在加载界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="13874:13959" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="13969:14111" ph="/// 是否是合法的界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="14160:14234" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="14244:14449" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="14523:14634" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="14644:14904" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="14992:15096" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="15106:15376" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="15475:15599" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="15609:15866" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="15957:16072" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="16082:16407" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="16520:16637" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="16647:16959" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="17064:17172" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="17182:17504" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="17620:17748" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="17758:18135" ph="/// 打开界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="18265:18398" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="18408:18517" ph="/// 关闭界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="18563:18630" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="18640:18801" ph="/// 关闭界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="18864:18941" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="18951:19054" ph="/// 关闭界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="19101:19166" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="19176:19331" ph="/// 关闭界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="19395:19470" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="19480:19540" ph="/// 关闭所有已加载的界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="19584:19653" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="19663:19775" ph="/// 关闭所有已加载的界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="19834:19911" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="19921:19982" ph="/// 关闭所有正在加载的界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="20027:20097" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="20107:20210" ph="/// 激活界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="20259:20326" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="20336:20491" ph="/// 激活界面。 ... " />
+            <marker date="1550668408452" expanded="true" signature="20557:20634" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="20644:20807" ph="/// 设置界面是否被加锁。 ... " />
+            <marker date="1550668408452" expanded="true" signature="20879:21112" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="20921:21025" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="21122:21282" ph="/// 设置界面的优先级。 ... " />
+            <marker date="1550668408452" expanded="true" signature="21357:21594" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="21399:21503" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="21698:21900" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="21756:21890" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="22004:22428" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="22284:22418" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="22530:22730" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="22587:22720" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="22850:23068" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="22916:23058" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="23176:23382" ph="{...}" />
+            <marker date="1550668408452" expanded="true" signature="23236:23372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Entities/EntityLogic/EnemyTankLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="61" selection-end-column="92" />
+          <folding>
+            <marker date="1550671753803" expanded="true" signature="0:191" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1550671753803" expanded="false" signature="199:568" ph="..." />
+            <marker date="1550671753803" expanded="true" signature="624:6679" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="631:679" ph="/// 敌人坦克逻辑类 ... " />
+            <marker date="1550671753803" expanded="true" signature="727:6677" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="742:795" ph="/// 坦克数据 ... " />
+            <marker date="1550671753803" expanded="true" signature="864:927" ph="/// 变向计时器,大于4秒变向一次 ... " />
+            <marker date="1550671753803" expanded="true" signature="1187:1649" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="1398:1492" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="1718:2816" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="1886:2402" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="2189:2388" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="2450:2806" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="2673:2792" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="2874:3012" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="3040:3135" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="3172:4953" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="3253:4103" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="3342:3487" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="3522:3663" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="3709:3854" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="3900:4044" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="4120:4211" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="4325:4449" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="4478:4600" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="4715:4814" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="4843:4943" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="4991:5413" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="5102:5403" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="5238:5357" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="5458:5689" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="5728:6085" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="5809:6075" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="5870:6061" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="6095:6150" ph="/// 尝试掉落道具 ... " />
+            <marker date="1550671753803" expanded="true" signature="6184:6671" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="6242:6316" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="6356:6661" ph="{...}" />
+            <marker date="1550671753803" expanded="true" signature="6576:6645" ph="{...}" />
           </folding>
         </state>
       </provider>
