@@ -8,8 +8,21 @@ using DefaultNamespace;
 
 namespace Assets.GameMain.Scripts.Buffs
 {
+    public enum BuffKind
+    {
+        FreezeBuff = 1,
+        GodDefendBuff = 2,
+        SteelHeartBuff = 3,
+    }
+
+
     public abstract class BuffBase
     {
+        /// <summary>
+        /// Buff的Id
+        /// </summary>
+        public BuffKind m_BuffKind;
+
         /// <summary>
         /// 计时器
         /// </summary>
@@ -25,10 +38,11 @@ namespace Assets.GameMain.Scripts.Buffs
         /// </summary>
         public CostumEntityLogic m_CostumEntityLogic;
 
-        public BuffBase(CostumEntityLogic costumEntityLogic, float length)
+        public BuffBase(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length)
         {
             m_CostumEntityLogic = costumEntityLogic;
             m_Length = length;
+            m_BuffKind = buffKind;
             timer = 0;
         }
 

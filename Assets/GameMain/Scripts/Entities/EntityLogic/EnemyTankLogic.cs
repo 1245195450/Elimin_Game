@@ -58,10 +58,12 @@ namespace Assets.GameMain.Scripts.Entities.EntityLogic
             {
                 string senderName = ne.m_ToolName.Split('.')[0];
                 if (senderName == "P1")
-                    AddBuff(new FreezeBuff(this, 1.5f + GameEntry.DataNode.GetData<VarInt>("P1TimePauseLv") * 0.5f));
+                    AddBuff(new FreezeBuff(this, BuffKind.FreezeBuff,
+                        1.5f + GameEntry.DataNode.GetData<VarInt>("P1TimePauseLv") * 0.5f));
                 else
                 {
-                    AddBuff(new FreezeBuff(this, 1.5f + GameEntry.DataNode.GetData<VarInt>("P2TimePauseLv") * 0.5f));
+                    AddBuff(new FreezeBuff(this, BuffKind.FreezeBuff,
+                        1.5f + GameEntry.DataNode.GetData<VarInt>("P2TimePauseLv") * 0.5f));
                 }
             }
             else if (skillName == "ScreenHurt")

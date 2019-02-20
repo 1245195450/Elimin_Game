@@ -15,7 +15,8 @@ namespace Assets.GameMain.Scripts.Buffs
     /// </summary>
     public class SteelHeartBuff : BuffBase
     {
-        public SteelHeartBuff(CostumEntityLogic costumEntityLogic, float length) : base(costumEntityLogic, length)
+        public SteelHeartBuff(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length) : base(
+            costumEntityLogic, buffKind, length)
         {
         }
 

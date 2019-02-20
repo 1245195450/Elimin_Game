@@ -51,11 +51,13 @@ namespace Assets.GameMain.Scripts.Entities.EntityLogic
                 string senderName = ne.m_ToolName.Split('.')[0];
                 if (senderName == "P1")
                     AddBuff(
-                        new SteelHeartBuff(this, 1.5f + GameEntry.DataNode.GetData<VarInt>("P1SteelHeartLv") * 0.5f));
+                        new SteelHeartBuff(this, BuffKind.SteelHeartBuff,
+                            1.5f + GameEntry.DataNode.GetData<VarInt>("P1SteelHeartLv") * 0.5f));
                 else
                 {
                     AddBuff(
-                        new SteelHeartBuff(this, 1.5f + GameEntry.DataNode.GetData<VarInt>("P2SteelHeartLv") * 0.5f));
+                        new SteelHeartBuff(this, BuffKind.SteelHeartBuff,
+                            1.5f + GameEntry.DataNode.GetData<VarInt>("P2SteelHeartLv") * 0.5f));
                 }
             }
         }
@@ -77,7 +79,6 @@ namespace Assets.GameMain.Scripts.Entities.EntityLogic
         public void LoseHome()
         {
             transform.GetComponent<SpriteRenderer>().sprite = GameManager.m_SpritesAsset.m_SpritesAssets[6].Sprite;
-            
         }
 
         protected override void OnHide(object userData)

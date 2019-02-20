@@ -12,7 +12,8 @@ namespace Assets.GameMain.Scripts.Buffs
 {
     public class GodDefendBuff : BuffBase
     {
-        public GodDefendBuff(CostumEntityLogic costumEntityLogic, float length) : base(costumEntityLogic, length)
+        public GodDefendBuff(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length) : base(
+            costumEntityLogic, buffKind, length)
         {
         }
 

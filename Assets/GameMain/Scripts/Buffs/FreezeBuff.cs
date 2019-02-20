@@ -15,7 +15,8 @@ namespace Assets.GameMain.Scripts.Buffs
     /// </summary>
     public class FreezeBuff : BuffBase
     {
-        public FreezeBuff(CostumEntityLogic costumEntityLogic, float length) : base(costumEntityLogic, length)
+        public FreezeBuff(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length) : base(costumEntityLogic, buffKind,
+            length)
         {
         }
 
@@ -34,6 +35,7 @@ namespace Assets.GameMain.Scripts.Buffs
                 m_CostumEntityLogic.IsFreeze = false;
                 m_CostumEntityLogic.RemoveBuff(this);
             }
+
             timer += Time.fixedDeltaTime;
         }
 
