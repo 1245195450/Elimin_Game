@@ -6,7 +6,7 @@
 
 using GameFramework;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     /// <summary>
     /// 对话框显示数据。

@@ -4,12 +4,10 @@
 // Data: 2019年1月24日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.Entities.EntityData;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.ProfileMessage
+namespace GameMain.Scripts.ProfileMessage
 {
     public static class ProfileSaver
     {

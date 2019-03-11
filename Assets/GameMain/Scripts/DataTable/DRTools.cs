@@ -7,7 +7,7 @@
 using GameFramework;
 using UnityGameFramework.Runtime;
 
-namespace Assets.GameMain.Scripts.DataTable
+namespace GameMain.Scripts.DataTable
 {
     /// <summary>
     /// 道具表

@@ -4,13 +4,12 @@
 // Data: 2019年1月25日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.DataTable;
-using GameFramework;
 using GameFramework.DataTable;
+using GameMain.Scripts.DataTable;
 using UnityEngine;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityData
+namespace GameMain.Scripts.Entities.EntityData
 {
     [SerializeField]
     public class BullectData : EntityData

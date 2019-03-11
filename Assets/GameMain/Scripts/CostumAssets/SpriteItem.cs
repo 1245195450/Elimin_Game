@@ -7,7 +7,7 @@
 using System;
 using UnityEngine;
 
-namespace Assets.GameMain.Scripts.CostumAssets
+namespace GameMain.Scripts.CostumAssets
 {
     [Serializable]
     public class SpriteItem

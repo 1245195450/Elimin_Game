@@ -5,17 +5,18 @@
 //------------------------------------------------------------
 
 using System.Collections.Generic;
-using Assets.GameMain.Scripts.CostumAssets;
-using Assets.GameMain.Scripts.GameArgs;
-using Assets.GameMain.Scripts.Games;
 using GameFramework;
 using GameFramework.Event;
+using GameMain.Scripts.CostumAssets;
+using GameMain.Scripts.GameArgs;
+using GameMain.Scripts.Games;
+using GameMain.Scripts.ProfileMessage;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     public class GamingForm : UGuiForm
     {
@@ -43,7 +44,6 @@ namespace Assets.GameMain.Scripts.UI
         /// 玩家二的技能栏
         /// </summary>
         public Transform m_P2Skills;
-
 
         /// <summary>
         /// P1的技能图标数组
@@ -97,12 +97,20 @@ namespace Assets.GameMain.Scripts.UI
             GameEntry.Event.Subscribe(PlayerLivesChangeArgs.EventId,OnPlayerLivesChanged);
             m_MessionCurrent = 0;
             m_MessionRequest = 25;
+            
+            if (GameEntry.DataNode.GetData<VarInt>("PlayerMode") == 2)
+            {
+                m_GamingData.Find("P2RemainLives").gameObject.SetActive(true);
+            }
+            else
+            {
+                m_GamingData.Find("P2RemainLives").gameObject.SetActive(false);
+            }
             SetGameData();
         }
 
         private void OnPlayerLivesChanged(object sender, GameEventArgs e)
         {
-            PlayerLivesChangeArgs ne = (PlayerLivesChangeArgs) e;
             SetGameData();
         }
 
@@ -122,6 +130,11 @@ namespace Assets.GameMain.Scripts.UI
             SetGameData();
         }
 
+        /// <summary>
+        /// 当任务触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OnMessionTouch(object sender, GameEventArgs e)
         {
             ++m_MessionCurrent;
@@ -129,7 +142,7 @@ namespace Assets.GameMain.Scripts.UI
             if (m_MessionCurrent >= m_MessionRequest)
             {
                 GameEntry.DataNode.SetData<VarInt>("Gold", GameEntry.DataNode.GetData<VarInt>("Gold") + 1000);
-                ProfileMessage.ProfileSaver.SaveData();
+                ProfileSaver.SaveData();
                 GameEntry.Event.Fire(this, ReferencePool.Acquire<GameOverArgs>().Fill(true));
             }
         }

@@ -4,13 +4,13 @@
 // Data: 2019年1月28日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.GameArgs;
 using GameFramework;
+using GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.GameArgs;
 using UnityEngine;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityLogic
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     public class ToolsLogic : UnityGameFramework.Runtime.EntityLogic
     {

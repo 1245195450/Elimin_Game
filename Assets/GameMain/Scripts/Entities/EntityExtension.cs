@@ -4,14 +4,12 @@
 // Data: 2019年1月24日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.Entities.EntityLogic;
-using Assets.GameMain.Scripts.Utility;
-using GameFramework;
-using GameMain;
+using GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.Entities.EntityLogic;
+using GameMain.Scripts.Utility;
 using UnityGameFramework.Runtime;
 
-namespace Assets.GameMain.Scripts.Entities
+namespace GameMain.Scripts.Entities
 {
     public enum ToolsId
     {

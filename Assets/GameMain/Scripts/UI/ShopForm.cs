@@ -5,15 +5,16 @@
 //------------------------------------------------------------
 
 using System.Collections.Generic;
-using Assets.GameMain.Scripts.GameArgs;
 using DG.Tweening;
 using GameFramework.Event;
+using GameMain.Scripts.GameArgs;
+using GameMain.Scripts.ProfileMessage;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     public class ShopForm : UGuiForm
     {
@@ -61,7 +62,7 @@ namespace Assets.GameMain.Scripts.UI
 
         private void OnUpSkill(object sender, GameEventArgs e)
         {
-            ProfileMessage.ProfileSaver.SaveData();
+            ProfileSaver.SaveData();
             m_Gold.GetComponent<Text>().text = GameEntry.DataNode.GetData<VarInt>("Gold").ToString();
         }
 

@@ -4,13 +4,9 @@
 // Data: 2019年1月28日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.Entities.EntityData;
-using DefaultNamespace;
-using GameFramework;
 using UnityEngine;
 
-namespace Assets.GameMain.Scripts.Entities.EntityLogic
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     public abstract class TankBaseLogic : CostumEntityLogic
     {

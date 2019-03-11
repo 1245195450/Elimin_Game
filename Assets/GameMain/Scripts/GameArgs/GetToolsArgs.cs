@@ -6,7 +6,7 @@
 
 using GameFramework.Event;
 
-namespace Assets.GameMain.Scripts.GameArgs
+namespace GameMain.Scripts.GameArgs
 {
     /// <summary>
     /// 得到道具事件

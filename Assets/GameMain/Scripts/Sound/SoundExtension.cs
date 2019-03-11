@@ -6,13 +6,12 @@
 
 using GameFramework.DataTable;
 using GameFramework.Sound;
+using GameMain.Scripts.DataTable;
+using GameMain.Scripts.Utility;
 using UnityGameFramework.Runtime;
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.DataTable;
-using Assets.GameMain.Scripts.Utility;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Sound
+namespace GameMain.Scripts.Sound
 {
     public static class SoundExtension
     {

@@ -4,9 +4,7 @@
 // Data: 2019年1月24日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Entities.EntityData;
-
-namespace Assets.GameMain.Scripts.ProfileMessage
+namespace GameMain.Scripts.ProfileMessage
 {
     /// <summary>
     /// 用来存档的临时数据类

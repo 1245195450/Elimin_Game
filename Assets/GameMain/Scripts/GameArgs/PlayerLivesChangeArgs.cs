@@ -6,7 +6,7 @@
 
 using GameFramework.Event;
 
-namespace Assets.GameMain.Scripts.GameArgs
+namespace GameMain.Scripts.GameArgs
 {
     public class PlayerLivesChangeArgs:GameEventArgs
     {

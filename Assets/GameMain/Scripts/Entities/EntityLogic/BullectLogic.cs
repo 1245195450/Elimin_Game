@@ -4,16 +4,13 @@
 // Data: 2019年1月25日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Buffs;
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.GameArgs;
-using DefaultNamespace;
 using GameFramework;
+using GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.GameArgs;
 using UnityEngine;
-using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityLogic
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     public class BullectLogic : UnityGameFramework.Runtime.EntityLogic
     {
@@ -50,52 +47,37 @@ namespace Assets.GameMain.Scripts.Entities.EntityLogic
             switch (transform.tag)
             {
                 case "EnemyBullect":
-                    switch (collision.transform.tag)
+                    if (Entity.isActiveAndEnabled)
                     {
-                        case "Steel":
-                        case "PlayerHomeSteel":
-                            if (Entity.isActiveAndEnabled)
-                            {
+                        switch (collision.transform.tag)
+                        {
+                            case "Steel":
+                            case "PlayerHomeSteel":
                                 GameEntry.Entity.HideEntity(Entity);
-                            }
-
-                            break;
-                        case "Heart":
-                            if (Entity.isActiveAndEnabled)
-                            {
-                                GameEntry.Event.Fire(this, ReferencePool.Acquire<GameOverArgs>().Fill(false));
+                                break;
+                            case "Heart":
                                 GameEntry.Entity.HideEntity(Entity);
-                            }
-
-                            collision.transform.GetComponent<MapItemsLogic>().LoseHome();
-                            break;
-                        case "PlayerHomeBrick":
-                        case "Brick":
-                            if (collision.transform.GetComponent<UnityGameFramework.Runtime.EntityLogic>().Entity
-                                .isActiveAndEnabled)
-                                GameEntry.Entity.HideEntity(collision.transform
-                                    .GetComponent<UnityGameFramework.Runtime.EntityLogic>().Entity);
-                            if (Entity.isActiveAndEnabled)
-                            {
+                                collision.transform.GetComponent<MapItemsLogic>().LoseHome();
+                                break;
+                            case "PlayerHomeBrick":
+                            case "Brick":
                                 GameEntry.Entity.HideEntity(Entity);
-                            }
-
-                            break;
-                        case "P1":
-                        case "P2":
-                            if (collision.transform.GetComponent<PlayerTankLogic>().Entity
-                                .isActiveAndEnabled)
-                            {
-                                collision.transform.GetComponent<PlayerTankLogic>()
-                                    .BeHited(m_BullectData.Damage);
-                            }
-
-                            if (Entity.isActiveAndEnabled)
-                            {
+                                if (collision.transform.GetComponent<UnityGameFramework.Runtime.EntityLogic>().Entity
+                                    .isActiveAndEnabled)
+                                    GameEntry.Entity.HideEntity(collision.transform
+                                        .GetComponent<UnityGameFramework.Runtime.EntityLogic>().Entity);
+                                break;
+                            case "P1":
+                            case "P2":
                                 GameEntry.Entity.HideEntity(Entity);
-                            }
-
-                            break;
+                                if (collision.transform.GetComponent<PlayerTankLogic>().Entity
+                                    .isActiveAndEnabled)
+                                {
+                                    collision.transform.GetComponent<PlayerTankLogic>()
+                                        .BeHited(m_BullectData.Damage);
+                                }
+                                break;
+                        }
                     }
 
                     break;

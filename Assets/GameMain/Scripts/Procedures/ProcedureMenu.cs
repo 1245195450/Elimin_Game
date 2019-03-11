@@ -4,17 +4,16 @@
 // Data: 2019年1月23日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.UI;
 using GameFramework;
 using GameFramework.Event;
 using GameFramework.Fsm;
 using GameFramework.Procedure;
-using GameMain;
 using GameMain.Scripts.Definition.Constant;
+using GameMain.Scripts.UI;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Procedures
+namespace GameMain.Scripts.Procedures
 {
     public class ProcedureMenu : ProcedureBase
     {

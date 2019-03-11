@@ -4,27 +4,26 @@
 // Data: 2019年1月26日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Entities;
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.GameArgs;
-using Assets.GameMain.Scripts.Procedures;
+using System.Collections.Generic;
 using GameFramework;
 using GameFramework.Event;
+using GameFramework.Resource;
+using GameMain.Scripts.CostumAssets;
+using GameMain.Scripts.Definition.Constant;
+using GameMain.Scripts.Entities;
+using GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.GameArgs;
+using GameMain.Scripts.Procedures;
+using GameMain.Scripts.ProfileMessage;
+using GameMain.Scripts.UI;
+using GameMain.Scripts.Utility;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using Object = System.Object;
 using Random = UnityEngine.Random;
-using System.Collections.Generic;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
-using Assets.GameMain.Scripts.CostumAssets;
-using Assets.GameMain.Scripts.UI;
-using Assets.GameMain.Scripts.Utility;
-using GameFramework.DataTable;
-using GameFramework.Resource;
-using GameMain.Scripts.Definition.Constant;
-using UnityEngine.Analytics;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Games
+namespace GameMain.Scripts.Games
 {
     /// <summary>
     /// 游戏逻辑类
@@ -78,96 +77,27 @@ namespace Assets.GameMain.Scripts.Games
         }
 
 
+        /// <summary>
+        /// 初始化游戏
+        /// </summary>
         public void Init()
         {
             GameEntry.Resource.LoadAsset(AssetUtility.GetSpriteAsset(), OnLoadSpriteAssetSuccess);
             GameEntry.Event.Subscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
             GameEntry.Event.Subscribe(GameOverArgs.EventId, OnGameOver);
             GameEntry.Event.Subscribe(PlayerLivesChangeArgs.EventId, OnPlayerLivesChanged);
+
             HasExit = false;
             LoadSuccess = false;
+
             InitEnemySpwanPos();
             InitHeart();
             InitCom();
         }
 
-        private void OnPlayerLivesChanged(object sender, GameEventArgs e)
-        {
-            PlayerLivesChangeArgs ne = (PlayerLivesChangeArgs) e;
-            if (ne.changeValue > 0) return;
-            if (GameEntry.DataNode.GetData<VarInt>(ne.playerFlag + "Lives") <= 0)
-            {
-                GameEntry.Event.Fire(this, ReferencePool.Acquire<GameOverArgs>().Fill(false));
-            }
-            else
-            {
-                if (ne.playerFlag == "P1")
-                {
-                    GameEntry.Entity.ShowPlayerTank(
-                        new PlayerTankData(GameEntry.Entity.GenerateSerialId(), 10000)
-                        {
-                            Position = new Vector3(-2.8f, -4.5f, 1.0f),
-                        });
-                }
-                else
-                {
-                    GameEntry.Entity.ShowPlayerTank(
-                        new PlayerTankData(GameEntry.Entity.GenerateSerialId(), 10001)
-                        {
-                            Position = new Vector3(-0.24f, -4.5f, 1.0f),
-                        });
-                }
-            }
-        }
-
-        private void OnGameOver(object sender, GameEventArgs e)
-        {
-            GameOverArgs ne = (GameOverArgs) e;
-            if (ne.m_PassGame)
-            {
-                HasExit = true;
-                GameEntry.DataNode.SetData<VarInt>("Level", GameEntry.DataNode.GetData<VarInt>("Level") + 1);
-                ProfileMessage.ProfileSaver.SaveData();
-                GameEntry.DataNode.SetData<VarString>(Constant.ProcedureRunnigData.TransitionalMessage,
-                    "Scene " + GameEntry.DataNode.GetData<VarInt>("Level"));
-                GameEntry.Entity.HideAllLoadedEntities();
-                GameEntry.Entity.HideAllLoadingEntities();
-                GameEntry.UI.OpenUIForm(UIFormId.TransitionalForm);
-                ResetGame();
-            }
-            else
-            {
-                HasExit = true;
-                GameEntry.UI.OpenDialog(new DialogParams()
-                {
-                    Mode = 1,
-                    Title = "游戏结束",
-                    Message = "胜败乃兵家常事",
-                    ConfirmText = "回到主菜单",
-                    OnClickConfirm = OnClickConfirm,
-                });
-            }
-        }
-
-        private void OnClickConfirm(object obj)
-        {
-            GameEntry.DataNode.SetData<VarInt>("P1Lives", 3);
-            GameEntry.DataNode.SetData<VarInt>("P2Lives", 3);
-            ProfileMessage.ProfileSaver.SaveData();
-            GameEntry.DataNode.SetData<VarString>(Constant.ProcedureRunnigData.NextSceneName, "Menu");
-            GameEntry.DataNode.SetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure, true);
-        }
-
-        private void ResetGame()
-        {
-            LoadSuccess = false;
-            m_SpwanEnemyTimer = 0;
-            m_LoadedFlag.Clear();
-            InitEnemySpwanPos();
-            InitHeart();
-            InitCom();
-        }
-
+        /// <summary>
+        /// 更新游戏逻辑
+        /// </summary>
         public void Update()
         {
             if (!LoadSuccess)
@@ -188,6 +118,7 @@ namespace Assets.GameMain.Scripts.Games
             }
 
             if (HasExit) return;
+
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 HasExit = true;
@@ -207,32 +138,155 @@ namespace Assets.GameMain.Scripts.Games
             SpwanEnemy();
         }
 
+        /// <summary>
+        /// 离开游戏
+        /// </summary>
+        public void Leave()
+        {
+            GameEntry.Event.Unsubscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
+            GameEntry.Event.Unsubscribe(GameOverArgs.EventId, OnGameOver);
+            GameEntry.Event.Unsubscribe(PlayerLivesChangeArgs.EventId, OnPlayerLivesChanged);
+            GameEntry.Entity.HideAllLoadedEntities();
+        }
+
+        /// <summary>
+        /// 玩家生命值改变的回调函数
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void OnPlayerLivesChanged(object sender, GameEventArgs e)
+        {
+            PlayerLivesChangeArgs ne = (PlayerLivesChangeArgs) e;
+            //如果是加命，下面的逻辑不需要执行
+            if (ne.changeValue > 0) return;
+
+            if (GameEntry.DataNode.GetData<VarInt>("PlayerMode") == 2)
+            {
+                if (GameEntry.DataNode.GetData<VarInt>("P1Lives") <= 0 &&
+                    GameEntry.DataNode.GetData<VarInt>("P2Lives") <= 0)
+                {
+                    GameEntry.Event.Fire(this, ReferencePool.Acquire<GameOverArgs>().Fill(false));
+                    return;
+                }
+            }
+            else
+            {
+                if (GameEntry.DataNode.GetData<VarInt>("P1Lives") <= 0)
+                {
+                    GameEntry.Event.Fire(this, ReferencePool.Acquire<GameOverArgs>().Fill(false));
+                    return;
+                }
+            }
+
+            if (ne.playerFlag == "P1")
+            {
+                GameEntry.Entity.ShowPlayerTank(
+                    new PlayerTankData(GameEntry.Entity.GenerateSerialId(), 10000)
+                    {
+                        Position = new Vector3(-2.8f, -4.5f, 1.0f),
+                    });
+            }
+            else
+            {
+                GameEntry.Entity.ShowPlayerTank(
+                    new PlayerTankData(GameEntry.Entity.GenerateSerialId(), 10001)
+                    {
+                        Position = new Vector3(-0.24f, -4.5f, 1.0f),
+                    });
+            }
+        }
+
+        /// <summary>
+        /// 游戏结束回调函数
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void OnGameOver(object sender, GameEventArgs e)
+        {
+            GameOverArgs ne = (GameOverArgs) e;
+            if (HasExit) return;
+
+            if (ne.m_PassGame)
+            {
+                HasExit = true;
+                GameEntry.DataNode.SetData<VarInt>("Level", GameEntry.DataNode.GetData<VarInt>("Level") + 1);
+                ProfileSaver.SaveData();
+                GameEntry.DataNode.SetData<VarString>(Constant.ProcedureRunnigData.TransitionalMessage,
+                    "Scene " + GameEntry.DataNode.GetData<VarInt>("Level"));
+                GameEntry.Entity.HideAllLoadedEntities();
+                GameEntry.Entity.HideAllLoadingEntities();
+                GameEntry.UI.OpenUIForm(UIFormId.TransitionalForm);
+                ResetGame();
+            }
+            else
+            {
+                HasExit = true;
+                GameEntry.Base.GameSpeed = 0;
+                GameEntry.UI.OpenDialog(new DialogParams()
+                {
+                    Mode = 1,
+                    Title = "游戏结束",
+                    Message = "胜败乃兵家常事",
+                    ConfirmText = "回到主菜单",
+                    OnClickConfirm = Return2Menu
+                });
+            }
+        }
+
+
+        private void ResetGame()
+        {
+            LoadSuccess = false;
+            m_SpwanEnemyTimer = 0;
+            m_LoadedFlag.Clear();
+            InitEnemySpwanPos();
+            InitHeart();
+            InitCom();
+        }
+
+
+        /// <summary>
+        /// 回到主菜单
+        /// </summary>
+        /// <param name="obj"></param>
         private void Return2Menu(object obj)
         {
             GameEntry.Base.GameSpeed = 1.0f;
+
+            Leave();
+            GameEntry.DataNode.SetData<VarInt>("P1Lives", 3);
+            GameEntry.DataNode.SetData<VarInt>("P2Lives", 3);
             GameEntry.DataNode.SetData<VarString>(Constant.ProcedureRunnigData.NextSceneName, "Menu");
             GameEntry.DataNode.SetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure, true);
         }
 
+        /// <summary>
+        /// 返回游戏
+        /// </summary>
+        /// <param name="obj"></param>
         private void Return2Game(object obj)
         {
             GameEntry.Base.GameSpeed = 1.0f;
             HasExit = false;
         }
 
-        public void Leave()
-        {
-            GameEntry.Event.Unsubscribe(ShowEntitySuccessEventArgs.EventId, OnShowEntitySuccess);
-            GameEntry.Entity.HideAllLoadedEntities();
-        }
-
-
+        /// <summary>
+        /// 加载自定义asset成功回调函数
+        /// </summary>
+        /// <param name="assetname"></param>
+        /// <param name="asset"></param>
+        /// <param name="duration"></param>
+        /// <param name="userdata"></param>
         private static void loadSpritsAssetCallback(string assetname, object asset, float duration, object userdata)
         {
             m_SpritesAsset = asset as SpritesAsset;
         }
 
-
+        /// <summary>
+        /// 显示敌人成功的回调函数
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="ne"></param>
         private void OnShowEntitySuccess(object sender, GameEventArgs ne)
         {
             ShowEntitySuccessEventArgs e = (ShowEntitySuccessEventArgs) ne;
@@ -240,6 +294,9 @@ namespace Assets.GameMain.Scripts.Games
             m_LoadedFlag[m_entityData.Id] = true;
         }
 
+        /// <summary>
+        /// 初始化敌人位置
+        /// </summary>
         private void InitEnemySpwanPos()
         {
             for (int i = 0; i < 3; i++)
@@ -248,6 +305,9 @@ namespace Assets.GameMain.Scripts.Games
             }
         }
 
+        /// <summary>
+        /// 生成敌人
+        /// </summary>
         private void SpwanEnemy()
         {
             m_SpwanEnemyTimer += Time.fixedDeltaTime;

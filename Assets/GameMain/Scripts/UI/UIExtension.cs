@@ -4,17 +4,13 @@
 // Data: 2019年1月26日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.DataTable;
 using GameFramework.DataTable;
-using GameFramework.Procedure;
-using GameMain;
-using GameMain.Scripts.Definition.Constant;
+using GameMain.Scripts.DataTable;
+using GameMain.Scripts.Utility;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
-using Assets.GameMain.Scripts.UI;
-using Assets.GameMain.Scripts.Utility;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     public static class UIExtension
     {

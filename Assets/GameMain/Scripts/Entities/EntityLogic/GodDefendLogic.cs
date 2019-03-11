@@ -4,11 +4,11 @@
 // Data: 2019年1月30日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.Entities.EntityData;
 using UnityEngine;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityLogic
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     public class GodDefendLogic : UnityGameFramework.Runtime.EntityLogic
     {

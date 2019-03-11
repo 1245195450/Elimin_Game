@@ -4,11 +4,11 @@
 // Data: 2019年1月26日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.DataTable;
 using GameFramework.DataTable;
+using GameMain.Scripts.DataTable;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityData
+namespace GameMain.Scripts.Entities.EntityData
 {
     public class MapItemsDatas : EntityData
     {

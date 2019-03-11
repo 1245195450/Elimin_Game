@@ -6,7 +6,7 @@
 
 using UnityEngine;
 
-namespace Assets.GameMain.Scripts.Entities.EntityData
+namespace GameMain.Scripts.Entities.EntityData
 {
     public abstract class EntityData
     {

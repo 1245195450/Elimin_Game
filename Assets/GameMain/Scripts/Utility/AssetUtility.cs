@@ -5,11 +5,9 @@
 // Feedback: mailto:jiangyin@gameframework.cn
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Base;
 using GameFramework;
 
-
-namespace Assets.GameMain.Scripts.Utility
+namespace GameMain.Scripts.Utility
 {
     public static class AssetUtility
     {

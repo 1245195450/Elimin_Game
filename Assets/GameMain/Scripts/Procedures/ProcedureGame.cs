@@ -4,23 +4,16 @@
 // Data: 2019年1月23日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Entities;
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.Games;
-using Assets.GameMain.Scripts.UI;
-using Assets.GameMain.Scripts.Utility;
-using GameFramework;
 using GameFramework.Event;
 using GameFramework.Fsm;
 using GameFramework.Procedure;
-using GameFramework.Scene;
-using GameMain;
 using GameMain.Scripts.Definition.Constant;
-using UnityEngine;
+using GameMain.Scripts.Games;
+using GameMain.Scripts.UI;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Procedures
+namespace GameMain.Scripts.Procedures
 {
     public class ProcedureGame : ProcedureBase
     {
@@ -52,10 +45,12 @@ namespace Assets.GameMain.Scripts.Procedures
             OpenUIFormSuccessEventArgs ne = (OpenUIFormSuccessEventArgs) e;
             if (ne.UserData != this) return;
             m_GamingForm = (GamingForm) ne.UIForm.Logic;
-            m_GameManager = new GameManager(this);
-            m_GameManager.Init();
-            m_SkillManager = new SkillManager(this);
-            m_SkillManager.Init();
+            if (m_GameManager == null)
+                m_GameManager = new GameManager(this);
+            m_GameManager?.Init();
+            if (m_SkillManager == null)
+                m_SkillManager = new SkillManager(this);
+            m_SkillManager?.Init();
         }
 
         protected override void OnUpdate(IFsm<IProcedureManager> procedureOwner, float elapseSeconds,
@@ -75,7 +70,6 @@ namespace Assets.GameMain.Scripts.Procedures
             base.OnLeave(procedureOwner, isShutdown);
             GameEntry.Event.Unsubscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenGamingFormSuccess);
             m_GamingForm.RemoveAllSkills();
-            m_GameManager.Leave();
             m_SkillManager.Leave();
             GameEntry.UI.CloseUIForm(m_GamingForm.UIForm);
         }

@@ -6,9 +6,9 @@
 
 using GameFramework.Fsm;
 using GameFramework.Procedure;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Procedures
+namespace GameMain.Scripts.Procedures
 {
     public class ProcedureLoadRes : ProcedureBase
     {

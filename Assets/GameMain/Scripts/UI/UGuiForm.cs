@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     public class UGuiForm : UIFormLogic
     {

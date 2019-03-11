@@ -7,7 +7,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.GameMain.Scripts.CostumAssets
+namespace GameMain.Scripts.CostumAssets
 {
     public class SpritesAsset : ScriptableObject
     {

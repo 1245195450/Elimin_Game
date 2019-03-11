@@ -6,7 +6,7 @@
 
 using GameFramework.Event;
 
-namespace Assets.GameMain.Scripts.GameArgs
+namespace GameMain.Scripts.GameArgs
 {
     /// <summary>
     /// 下一场景已初始化完毕事件

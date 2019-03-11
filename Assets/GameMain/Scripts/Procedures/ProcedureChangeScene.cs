@@ -4,17 +4,15 @@
 // Data: 2019年1月11日 15:48:36
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Utility;
-using GameFramework;
 using GameFramework.Event;
 using GameFramework.Fsm;
 using GameFramework.Procedure;
-using GameMain;
 using GameMain.Scripts.Definition.Constant;
+using GameMain.Scripts.Utility;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Procedures
+namespace GameMain.Scripts.Procedures
 {
     public class ProcedureChangeScene : ProcedureBase
     {

@@ -5,7 +5,7 @@
 //------------------------------------------------------------
 
 using System.IO;
-using Assets.GameMain.Scripts.CostumAssets;
+using GameMain.Scripts.CostumAssets;
 using UnityEditor;
 using UnityEngine;
 

@@ -4,15 +4,15 @@
 // Data: 2019年2月2日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.DataTable;
-using Assets.GameMain.Scripts.GameArgs;
 using GameFramework;
 using GameFramework.DataTable;
+using GameMain.Scripts.DataTable;
+using GameMain.Scripts.GameArgs;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     /// <summary>
     /// 商品基类

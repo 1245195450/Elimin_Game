@@ -6,7 +6,7 @@
 
 using UnityEngine;
 
-namespace Assets.GameMain.Scripts.Base
+namespace GameMain.Scripts.Base
 {
     public partial class GameEntry:MonoBehaviour
     {

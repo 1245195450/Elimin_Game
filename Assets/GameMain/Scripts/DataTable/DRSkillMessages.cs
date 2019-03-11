@@ -8,7 +8,7 @@ using Boo.Lang;
 using GameFramework;
 using UnityGameFramework.Runtime;
 
-namespace Assets.GameMain.Scripts.DataTable
+namespace GameMain.Scripts.DataTable
 {
     public class DRSkillMessages : DataRowBase
     {

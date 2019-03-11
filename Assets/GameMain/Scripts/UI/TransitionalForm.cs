@@ -4,18 +4,17 @@
 // Data: 2019年1月26日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.GameArgs;
-using Assets.GameMain.Scripts.Sound;
 using DG.Tweening;
-using GameFramework;
 using GameFramework.Event;
 using GameMain.Scripts.Definition.Constant;
+using GameMain.Scripts.GameArgs;
+using GameMain.Scripts.Sound;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     public class TransitionalForm : UGuiForm
     {

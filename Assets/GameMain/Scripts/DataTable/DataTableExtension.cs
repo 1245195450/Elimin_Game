@@ -5,16 +5,15 @@
 //------------------------------------------------------------
 
 using System;
-using Assets.GameMain.Scripts.Utility;
 using GameFramework;
-using GameMain;
+using GameMain.Scripts.Utility;
 using UnityGameFramework.Runtime;
 
-namespace Assets.GameMain.Scripts.DataTable
+namespace GameMain.Scripts.DataTable
 {
     public static class DataTableExtension
     {
-        private const string DataRowClassPrefixName = "Assets.GameMain.Scripts.DataTable.DR";
+        private const string DataRowClassPrefixName = "GameMain.Scripts.DataTable.DR";
         private static readonly string[] ColumnSplit = new string[] {"\t"};
 
         public static void LoadDataTable(this DataTableComponent dataTableComponent, string dataTableName,

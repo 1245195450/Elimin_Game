@@ -4,19 +4,17 @@
 // Data: 2019年1月26日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Buffs;
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.GameArgs;
-using Assets.GameMain.Scripts.Games;
-using DefaultNamespace;
 using GameFramework;
 using GameFramework.Event;
+using GameMain.Scripts.Buffs;
+using GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.GameArgs;
+using GameMain.Scripts.Games;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityLogic
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     public class MapItemsLogic : CostumEntityLogic
     {
@@ -78,6 +76,7 @@ namespace Assets.GameMain.Scripts.Entities.EntityLogic
 
         public void LoseHome()
         {
+            GameEntry.Event.Fire(this, ReferencePool.Acquire<GameOverArgs>().Fill(false));
             transform.GetComponent<SpriteRenderer>().sprite = GameManager.m_SpritesAsset.m_SpritesAssets[6].Sprite;
         }
 

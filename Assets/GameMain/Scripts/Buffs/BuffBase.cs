@@ -4,9 +4,9 @@
 // Data: 2019年2月1日
 //------------------------------------------------------------
 
-using DefaultNamespace;
+using GameMain.Scripts.Entities.EntityLogic;
 
-namespace Assets.GameMain.Scripts.Buffs
+namespace GameMain.Scripts.Buffs
 {
     public enum BuffKind
     {

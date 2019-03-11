@@ -5,15 +5,15 @@
 //------------------------------------------------------------
 
 using System.Collections.Generic;
-using Assets.GameMain.Scripts.Procedures;
 using DG.Tweening;
 using GameFramework;
 using GameMain.Scripts.Definition.Constant;
+using GameMain.Scripts.ProfileMessage;
 using UnityEngine;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     public class MenuForm : UGuiForm
     {
@@ -101,20 +101,20 @@ namespace Assets.GameMain.Scripts.UI
                 if (m_Selector.position == m_One.position)
                 {
                     GameEntry.DataNode.GetOrAddNode("PlayerMode").SetData<VarInt>(1);
-                    ProfileMessage.ProfileReader.Init();
+                    ProfileReader.Init();
                     m_CanvasGroup.DOFade(0, 1.0f)
                         .OnComplete(ToGame);
                 }
                 else if (m_Selector.position == m_Two.position)
                 {
                     GameEntry.DataNode.GetOrAddNode("PlayerMode").SetData<VarInt>(2);
-                    ProfileMessage.ProfileReader.Init();
+                    ProfileReader.Init();
                     m_CanvasGroup.DOFade(0, 1.0f)
                         .OnComplete(ToGame);
                 }
                 else if (m_Selector.position == m_Shop.position)
                 {
-                    ProfileMessage.ProfileReader.Init();
+                    ProfileReader.Init();
                     m_CanvasGroup.DOFade(0, 1.0f)
                         .OnComplete(() => GameEntry.UI.OpenUIForm(UIFormId.ShopForm));
                 }

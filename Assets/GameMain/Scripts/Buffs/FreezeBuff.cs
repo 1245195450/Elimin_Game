@@ -5,10 +5,10 @@
 //------------------------------------------------------------
 
 using System;
-using DefaultNamespace;
+using GameMain.Scripts.Entities.EntityLogic;
 using UnityEngine;
 
-namespace Assets.GameMain.Scripts.Buffs
+namespace GameMain.Scripts.Buffs
 {
     /// <summary>
     /// 冰冻Buff

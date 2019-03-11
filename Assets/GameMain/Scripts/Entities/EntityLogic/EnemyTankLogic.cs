@@ -4,19 +4,16 @@
 // Data: 2019年1月24日
 //------------------------------------------------------------
 
-using System.Collections.Generic;
-using Assets.GameMain.Scripts.Buffs;
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.GameArgs;
-using DefaultNamespace;
 using GameFramework;
-using GameFramework.DataTable;
 using GameFramework.Event;
+using GameMain.Scripts.Buffs;
+using GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.GameArgs;
 using UnityEngine;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityLogic
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     /// <summary>
     /// 敌人坦克逻辑类

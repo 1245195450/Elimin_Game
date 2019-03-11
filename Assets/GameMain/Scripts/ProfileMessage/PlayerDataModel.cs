@@ -4,7 +4,7 @@
 // Data: 2019年2月1日
 //------------------------------------------------------------
 
-namespace Assets.GameMain.Scripts.ProfileMessage
+namespace GameMain.Scripts.ProfileMessage
 {
     /// <summary>
     /// 玩家数据模型

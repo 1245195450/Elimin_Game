@@ -4,13 +4,12 @@
 // Data: 2019年1月24日
 //------------------------------------------------------------
 
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.DataTable;
-using Assets.GameMain.Scripts.ProfileMessage;
-using GameFramework;
 using GameFramework.DataTable;
+using GameMain.Scripts.DataTable;
+using GameMain.Scripts.ProfileMessage;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityData
+namespace GameMain.Scripts.Entities.EntityData
 {
     /// <summary>
     /// 玩家坦克信息

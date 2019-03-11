@@ -8,10 +8,9 @@
 using GameFramework;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     /// <summary>
     /// 对话框类
@@ -139,7 +138,7 @@ namespace Assets.GameMain.Scripts.UI
         {
             if (m_PauseGame)
             {
-                Base.GameEntry.Base.ResumeGame();
+                GameEntry.Base.ResumeGame();
             }
 
             m_DialogMode = 1;
@@ -172,7 +171,7 @@ namespace Assets.GameMain.Scripts.UI
         {
             if (m_PauseGame)
             {
-                Base.GameEntry.Base.PauseGame();
+                GameEntry.Base.PauseGame();
             }
         }
 

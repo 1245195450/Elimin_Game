@@ -4,7 +4,7 @@
 // Data: 2019年1月26日
 //------------------------------------------------------------
 
-namespace Assets.GameMain.Scripts.UI
+namespace GameMain.Scripts.UI
 {
     public enum UIFormId
     {

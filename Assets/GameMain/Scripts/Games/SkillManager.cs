@@ -6,16 +6,15 @@
 
 using System;
 using System.Collections.Generic;
-using Assets.GameMain.Scripts.Base;
-using Assets.GameMain.Scripts.GameArgs;
-using Assets.GameMain.Scripts.Procedures;
-using Assets.GameMain.Scripts.UI;
 using GameFramework;
 using GameFramework.Event;
-using GameFramework.Scene;
+using GameMain.Scripts.GameArgs;
+using GameMain.Scripts.Procedures;
+using GameMain.Scripts.UI;
 using UnityEngine;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Games
+namespace GameMain.Scripts.Games
 {
     /// <summary>
     /// 技能管理类

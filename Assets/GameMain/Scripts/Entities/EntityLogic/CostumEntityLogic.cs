@@ -5,15 +5,14 @@
 //------------------------------------------------------------
 
 using System.Collections.Generic;
-using Assets.GameMain.Scripts.Buffs;
-using UnityGameFramework.Runtime;
+using GameMain.Scripts.Buffs;
 
-namespace DefaultNamespace
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     /// <summary>
     /// 为了添加Buff设计的自定义EntityLogic
     /// </summary>
-    public class CostumEntityLogic : EntityLogic
+    public class CostumEntityLogic : UnityGameFramework.Runtime.EntityLogic
     {
         public List<BuffBase> m_Buffs = new List<BuffBase>();
 

@@ -4,17 +4,16 @@
 // Data: 2019年1月24日
 //------------------------------------------------------------
 
-using System.Collections;
-using Assets.GameMain.Scripts.Buffs;
-using Assets.GameMain.Scripts.Entities.EntityData;
-using Assets.GameMain.Scripts.GameArgs;
 using GameFramework;
 using GameFramework.Event;
+using GameMain.Scripts.Buffs;
+using GameMain.Scripts.Entities.EntityData;
+using GameMain.Scripts.GameArgs;
 using UnityEngine;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Entities.EntityLogic
+namespace GameMain.Scripts.Entities.EntityLogic
 {
     /// <summary>
     /// 玩家基类
@@ -191,6 +190,8 @@ namespace Assets.GameMain.Scripts.Entities.EntityLogic
 
         public void BeHited(int damgeValue)
         {
+            if (!Entity.isActiveAndEnabled) return;
+            if (m_Animator.GetInteger(Level) == 0) return;
             if (IsGodDefend) return;
             m_PlayerTankData.Level -= damgeValue;
             m_Animator.SetInteger(Level, m_PlayerTankData.Level);
@@ -201,9 +202,9 @@ namespace Assets.GameMain.Scripts.Entities.EntityLogic
         public override void TryDie()
         {
             base.TryDie();
-            if (m_PlayerTankData.Level <= 0)
+            if (Entity.isActiveAndEnabled)
             {
-                if (Entity.isActiveAndEnabled)
+                if (m_PlayerTankData.Level <= 0)
                 {
                     GameEntry.DataNode.SetData<VarInt>(transform.tag + "Lives",
                         GameEntry.DataNode.GetData<VarInt>(transform.tag + "Lives") - 1);

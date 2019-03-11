@@ -9,14 +9,12 @@ using GameFramework;
 using GameFramework.Event;
 using GameFramework.Fsm;
 using GameFramework.Procedure;
+using GameMain.Scripts.DataTable;
 using GameMain.Scripts.Definition.Constant;
 using UnityGameFramework.Runtime;
-using GameEntry = Assets.GameMain.Scripts.Base.GameEntry;
-using Assets.GameMain.Scripts.DataTable;
-using Assets.GameMain.Scripts.GameArgs;
-using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
+using GameEntry = GameMain.Scripts.Base.GameEntry;
 
-namespace Assets.GameMain.Scripts.Procedures
+namespace GameMain.Scripts.Procedures
 {
     /// <summary>
     /// 启动流程,开始初始化各种资源表
