@@ -36,6 +36,8 @@
             </e>
             <e p="Buffs" t="Include">
               <e p="BuffBase.cs" t="Include" />
+              <e p="BuffPool.cs" t="Include" />
+              <e p="BuffPoolManager.cs" t="Include" />
               <e p="FreezeBuff.cs" t="Include" />
               <e p="GodDefendBuff.cs" t="Include" />
               <e p="SteelHeartBuff.cs" t="Include" />

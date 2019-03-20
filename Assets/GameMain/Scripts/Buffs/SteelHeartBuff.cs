@@ -5,6 +5,7 @@
 //------------------------------------------------------------
 
 using System;
+using GameFramework;
 using GameMain.Scripts.Entities.EntityLogic;
 using UnityEngine;
 
@@ -42,7 +43,9 @@ namespace GameMain.Scripts.Buffs
         public override void OnRemove()
         {
             base.OnRemove();
-            GC.Collect();
+            BuffPoolManager.instance.m_SteelHeartBuffPool.Unspawn(this);
+            GameFrameworkLog.Info("啊，我被回收了");
         }
+
     }
 }

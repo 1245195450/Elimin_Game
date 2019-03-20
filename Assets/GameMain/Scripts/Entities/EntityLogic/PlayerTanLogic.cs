@@ -4,6 +4,7 @@
 // Data: 2019年1月24日
 //------------------------------------------------------------
 
+using System.Runtime.Serialization;
 using GameFramework;
 using GameFramework.Event;
 using GameMain.Scripts.Buffs;
@@ -76,7 +77,7 @@ namespace GameMain.Scripts.Entities.EntityLogic
             ControlFire = string.Concat(ControlFire, PlayerFlag);
             m_Animator.SetInteger(Level, m_PlayerTankData.Level);
             //送一个3秒钟的无敌buff
-            AddBuff(new GodDefendBuff(this, BuffKind.GodDefendBuff, 3.0f));
+            AddBuff(BuffPoolManager.instance.CreateGodDefendBuff(this, BuffKind.GodDefendBuff, 3.0f));
             GameEntry.Event.Subscribe(SkillReleaseArgs.EventId, OnSkillRelease);
         }
 
@@ -88,7 +89,7 @@ namespace GameMain.Scripts.Entities.EntityLogic
             if (skillOwner == m_PlayerTankData.m_tag)
             {
                 if (skillName == "GodTime")
-                    AddBuff(new GodDefendBuff(this, BuffKind.GodDefendBuff,
+                    AddBuff(BuffPoolManager.instance.CreateGodDefendBuff(this, BuffKind.GodDefendBuff,
                         1.5f + GameEntry.DataNode.GetData<VarInt>(m_PlayerTankData.m_tag + "GodDefendLv") * 0.5f));
             }
         }

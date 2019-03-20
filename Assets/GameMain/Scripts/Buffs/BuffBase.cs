@@ -4,6 +4,7 @@
 // Data: 2019年2月1日
 //------------------------------------------------------------
 
+using GameFramework.ObjectPool;
 using GameMain.Scripts.Entities.EntityLogic;
 
 namespace GameMain.Scripts.Buffs
@@ -66,5 +67,14 @@ namespace GameMain.Scripts.Buffs
         public virtual void OnRemove()
         {
         }
+
+        /// <summary>
+        /// 重置Buff数据
+        /// </summary>
+        public virtual void ResetBuff()
+        {
+            timer = 0;
+        }
+
     }
 }
