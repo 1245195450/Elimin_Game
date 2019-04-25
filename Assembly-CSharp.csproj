@@ -63,8 +63,6 @@
     <Compile Include="Assets\GameMain\Scripts\Base\GameEntry.Builtin.cs" />
     <Compile Include="Assets\GameMain\Scripts\Base\GameEntry.cs" />
     <Compile Include="Assets\GameMain\Scripts\Buffs\BuffBase.cs" />
-    <Compile Include="Assets\GameMain\Scripts\Buffs\BuffPool.cs" />
-    <Compile Include="Assets\GameMain\Scripts\Buffs\BuffPoolManager.cs" />
     <Compile Include="Assets\GameMain\Scripts\Buffs\FreezeBuff.cs" />
     <Compile Include="Assets\GameMain\Scripts\Buffs\GodDefendBuff.cs" />
     <Compile Include="Assets\GameMain\Scripts\Buffs\SteelHeartBuff.cs" />

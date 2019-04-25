@@ -13,15 +13,10 @@ namespace GameMain.Scripts.Buffs
 {
     public class GodDefendBuff : BuffBase
     {
-        public GodDefendBuff(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length) : base(
-            costumEntityLogic, buffKind, length)
-        {
-        }
 
         public override void OnAdd()
         {
             base.OnAdd();
-            m_CostumEntityLogic.IsGodDefend = true;
             m_CostumEntityLogic.GetGodDefend();
         }
 
@@ -41,8 +36,7 @@ namespace GameMain.Scripts.Buffs
         public override void OnRemove()
         {
             base.OnRemove();
-            BuffPoolManager.instance.m_GodBuffPool.Unspawn(this);
-            GameFrameworkLog.Info("啊，我被回收了");
+            ReferencePool.Release(this);
         }
 
     }

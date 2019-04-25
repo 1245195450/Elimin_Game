@@ -32,6 +32,7 @@ namespace GameMain.Scripts.Entities.EntityLogic
         /// </summary>
         public virtual void GetGodDefend()
         {
+            IsGodDefend = true;
         }
 
         /// <summary>

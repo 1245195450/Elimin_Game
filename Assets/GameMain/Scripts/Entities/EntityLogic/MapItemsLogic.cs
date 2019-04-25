@@ -49,12 +49,12 @@ namespace GameMain.Scripts.Entities.EntityLogic
                 string senderName = ne.m_ToolName.Split('.')[0];
                 if (senderName == "P1")
                     AddBuff(
-                        BuffPoolManager.instance.CreateSteelHeartBuff(this, BuffKind.SteelHeartBuff,
+                        ReferencePool.Acquire<SteelHeartBuff>().Fill(this, BuffKind.SteelHeartBuff,
                             1.5f + GameEntry.DataNode.GetData<VarInt>("P1SteelHeartLv") * 0.5f));
                 else
                 {
                     AddBuff(
-                        BuffPoolManager.instance.CreateSteelHeartBuff(this, BuffKind.SteelHeartBuff,
+                        ReferencePool.Acquire<SteelHeartBuff>().Fill(this, BuffKind.SteelHeartBuff,
                             1.5f + GameEntry.DataNode.GetData<VarInt>("P2SteelHeartLv") * 0.5f));
                 }
             }

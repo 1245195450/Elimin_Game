@@ -55,11 +55,11 @@ namespace GameMain.Scripts.Entities.EntityLogic
             {
                 string senderName = ne.m_ToolName.Split('.')[0];
                 if (senderName == "P1")
-                    AddBuff(BuffPoolManager.instance.CreateFreezeBuff(this, BuffKind.FreezeBuff,
+                    AddBuff(ReferencePool.Acquire<FreezeBuff>().Fill(this, BuffKind.FreezeBuff,
                         1.5f + GameEntry.DataNode.GetData<VarInt>("P1TimePauseLv") * 0.5f));
                 else
                 {
-                    AddBuff(BuffPoolManager.instance.CreateFreezeBuff(this, BuffKind.FreezeBuff,
+                    AddBuff(ReferencePool.Acquire<FreezeBuff>().Fill(this, BuffKind.FreezeBuff,
                         1.5f + GameEntry.DataNode.GetData<VarInt>("P2TimePauseLv") * 0.5f));
                 }
             }

@@ -4,6 +4,7 @@
 // Data: 2019年2月1日
 //------------------------------------------------------------
 
+using GameFramework;
 using GameFramework.ObjectPool;
 using GameMain.Scripts.Entities.EntityLogic;
 
@@ -17,7 +18,7 @@ namespace GameMain.Scripts.Buffs
     }
 
 
-    public abstract class BuffBase
+    public  class BuffBase:IReference
     {
         /// <summary>
         /// Buff的Id
@@ -39,14 +40,14 @@ namespace GameMain.Scripts.Buffs
         /// </summary>
         public CostumEntityLogic m_CostumEntityLogic;
 
-        public BuffBase(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length)
+        public BuffBase Fill(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length)
         {
             m_CostumEntityLogic = costumEntityLogic;
-            m_Length = length;
             m_BuffKind = buffKind;
-            timer = 0;
+            m_Length = length;
+            return this;
         }
-
+        
         /// <summary>
         /// 当添加到实体时执行逻辑
         /// </summary>
@@ -68,13 +69,10 @@ namespace GameMain.Scripts.Buffs
         {
         }
 
-        /// <summary>
-        /// 重置Buff数据
-        /// </summary>
-        public virtual void ResetBuff()
+        public void Clear()
         {
             timer = 0;
+            m_Length = 0;
         }
-
     }
 }

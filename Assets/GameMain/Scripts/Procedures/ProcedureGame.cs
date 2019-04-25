@@ -46,9 +46,6 @@ namespace GameMain.Scripts.Procedures
             OpenUIFormSuccessEventArgs ne = (OpenUIFormSuccessEventArgs) e;
             if (ne.UserData != this) return;
             
-            if (!BuffPoolManager.instance.hasInit)
-                BuffPoolManager.instance.InitPool();
-            
             m_GamingForm = (GamingForm) ne.UIForm.Logic;
             if (m_GameManager == null)
                 m_GameManager = new GameManager(this);

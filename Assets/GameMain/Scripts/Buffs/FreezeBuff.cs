@@ -6,6 +6,7 @@
 
 using System;
 using GameFramework;
+using GameMain.Scripts.Base;
 using GameMain.Scripts.Entities.EntityLogic;
 using UnityEngine;
 
@@ -16,12 +17,6 @@ namespace GameMain.Scripts.Buffs
     /// </summary>
     public class FreezeBuff : BuffBase
     {
-        public FreezeBuff(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length) : base(
-            costumEntityLogic, buffKind,
-            length)
-        {
-        }
-
         public override void OnAdd()
         {
             base.OnAdd();
@@ -44,8 +39,7 @@ namespace GameMain.Scripts.Buffs
         public override void OnRemove()
         {
             base.OnRemove();
-            BuffPoolManager.instance.m_FreezeBuffPool.Unspawn(this);
-            GameFrameworkLog.Info("啊，我被回收了");
+            ReferencePool.Release(this);
         }
     }
 }

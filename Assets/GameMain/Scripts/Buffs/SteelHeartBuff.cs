@@ -16,11 +16,6 @@ namespace GameMain.Scripts.Buffs
     /// </summary>
     public class SteelHeartBuff : BuffBase
     {
-        public SteelHeartBuff(CostumEntityLogic costumEntityLogic, BuffKind buffKind, float length) : base(
-            costumEntityLogic, buffKind, length)
-        {
-        }
-
         public override void OnAdd()
         {
             base.OnAdd();
@@ -43,8 +38,7 @@ namespace GameMain.Scripts.Buffs
         public override void OnRemove()
         {
             base.OnRemove();
-            BuffPoolManager.instance.m_SteelHeartBuffPool.Unspawn(this);
-            GameFrameworkLog.Info("啊，我被回收了");
+            ReferencePool.Release(this);
         }
 
     }
