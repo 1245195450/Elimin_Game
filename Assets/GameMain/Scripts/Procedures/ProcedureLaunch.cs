@@ -52,7 +52,8 @@ namespace GameMain.Scripts.Procedures
                     return;
                 }
             }
-
+            
+            //所有资源加载就绪，进入场景切换流程
             ChangeState<ProcedureChangeScene>(procedureOwner);
         }
 
@@ -60,7 +61,6 @@ namespace GameMain.Scripts.Procedures
         {
             GameEntry.Event.Unsubscribe(LoadDataTableSuccessEventArgs.EventId, OnLoadDataTableSuccess);
             GameEntry.Event.Unsubscribe(LoadDataTableFailureEventArgs.EventId, OnLoadDataTableFailure);
-
 
             base.OnLeave(procedureOwner, isShutdown);
         }

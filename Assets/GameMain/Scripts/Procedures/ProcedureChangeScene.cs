@@ -21,15 +21,27 @@ namespace GameMain.Scripts.Procedures
         /// </summary>
         private string[] loadedSceneAssetNames;
 
+        /// <summary>
+        /// 拿到本身的流程拥有者引用，方便切换流程，不用再在Update轮询
+        /// </summary>
+        private IFsm<IProcedureManager> m_ProcedureOwner;
+
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {
             base.OnEnter(procedureOwner);
             GameEntry.Event.Subscribe(LoadSceneSuccessEventArgs.EventId, OnLoadSceneSuccess);
             GameEntry.Event.Subscribe(LoadSceneFailureEventArgs.EventId, OnLoadSceneFailure);
             GameEntry.Event.Subscribe(LoadSceneUpdateEventArgs.EventId, OnLoadSceneUpdate);
-            // 获取所有已加载场景名称
+
+            // 初始化不能切换流程
             GameEntry.DataNode.SetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure, false);
+
+            m_ProcedureOwner = procedureOwner;
+
+            // 获取所有已加载场景名称
             loadedSceneAssetNames = GameEntry.Scene.GetLoadedSceneAssetNames();
+
+            // 加载场景
             GameEntry.Scene.LoadScene(
                 AssetUtility.GetSceneAsset(
                     GameEntry.DataNode.GetData<VarString>(Constant.ProcedureRunnigData.NextSceneName)), this);
@@ -71,7 +83,16 @@ namespace GameMain.Scripts.Procedures
             {
                 GameEntry.Scene.UnloadScene(t);
             }
-            GameEntry.DataNode.SetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure, true);
+
+            switch (GameEntry.DataNode.GetData<VarString>(Constant.ProcedureRunnigData.NextSceneName))
+            {
+                case "Menu":
+                    ChangeState<ProcedureMenu>(m_ProcedureOwner);
+                    break;
+                case "Game":
+                    ChangeState<ProcedureGame>(m_ProcedureOwner);
+                    break;
+            }
         }
 
         protected override void OnLeave(IFsm<IProcedureManager> procedureOwner, bool isShutdown)
@@ -79,29 +100,8 @@ namespace GameMain.Scripts.Procedures
             GameEntry.Event.Unsubscribe(LoadSceneSuccessEventArgs.EventId, OnLoadSceneSuccess);
             GameEntry.Event.Unsubscribe(LoadSceneFailureEventArgs.EventId, OnLoadSceneFailure);
             GameEntry.Event.Unsubscribe(LoadSceneUpdateEventArgs.EventId, OnLoadSceneUpdate);
-            
+
             base.OnLeave(procedureOwner, isShutdown);
-        }
-
-        protected override void OnUpdate(IFsm<IProcedureManager> procedureOwner, float elapseSeconds,
-            float realElapseSeconds)
-        {
-            base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
-            if (!GameEntry.DataNode.GetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure))
-            {
-                return;
-            }
-
-            GameEntry.DataNode.SetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure, false);
-            switch (GameEntry.DataNode.GetData<VarString>(Constant.ProcedureRunnigData.NextSceneName))
-            {
-                case "Menu":
-                    ChangeState<ProcedureMenu>(procedureOwner);
-                    break;
-                case "Game":
-                    ChangeState<ProcedureGame>(procedureOwner);
-                    break;
-            }
         }
     }
 }

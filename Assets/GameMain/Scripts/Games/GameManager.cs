@@ -71,6 +71,11 @@ namespace GameMain.Scripts.Games
         /// </summary>
         private bool HasExit;
 
+        /// <summary>
+        /// 技能管理者
+        /// </summary>
+        private SkillManager m_SkillManager;
+
         public GameManager(Object userData)
         {
             m_ProcedureGame = userData as ProcedureGame;
@@ -87,6 +92,10 @@ namespace GameMain.Scripts.Games
             GameEntry.Event.Subscribe(GameOverArgs.EventId, OnGameOver);
             GameEntry.Event.Subscribe(PlayerLivesChangeArgs.EventId, OnPlayerLivesChanged);
 
+            if (m_SkillManager == null)
+                m_SkillManager = new SkillManager(m_ProcedureGame);
+            m_SkillManager?.Init();
+
             HasExit = false;
             LoadSuccess = false;
 
@@ -100,6 +109,8 @@ namespace GameMain.Scripts.Games
         /// </summary>
         public void Update()
         {
+            m_SkillManager.Update();
+            
             if (!LoadSuccess)
             {
                 IEnumerator<bool> iter = m_LoadedFlag.Values.GetEnumerator();
@@ -147,6 +158,7 @@ namespace GameMain.Scripts.Games
             GameEntry.Event.Unsubscribe(GameOverArgs.EventId, OnGameOver);
             GameEntry.Event.Unsubscribe(PlayerLivesChangeArgs.EventId, OnPlayerLivesChanged);
             GameEntry.Entity.HideAllLoadedEntities();
+            m_SkillManager.Leave();
         }
 
         /// <summary>

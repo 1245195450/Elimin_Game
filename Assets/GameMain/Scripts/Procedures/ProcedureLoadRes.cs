@@ -10,6 +10,9 @@ using GameEntry = GameMain.Scripts.Base.GameEntry;
 
 namespace GameMain.Scripts.Procedures
 {
+    /// <summary>
+    /// 加载资源流程
+    /// </summary>
     public class ProcedureLoadRes : ProcedureBase
     {
         private IFsm<IProcedureManager> m_ProcedureOwner;
@@ -20,6 +23,9 @@ namespace GameMain.Scripts.Procedures
             GameEntry.Resource.InitResources(OnInitResourceSuccess);
         }
 
+        /// <summary>
+        /// 初始化资源成功的回调函数
+        /// </summary>
         private void OnInitResourceSuccess()
         {
             ChangeState<ProcedureLaunch>(m_ProcedureOwner);

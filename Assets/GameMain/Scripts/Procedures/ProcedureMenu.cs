@@ -27,7 +27,6 @@ namespace GameMain.Scripts.Procedures
         /// </summary>
         private MenuForm m_MenuForm;
 
-
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {
             base.OnEnter(procedureOwner);

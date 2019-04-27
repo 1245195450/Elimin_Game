@@ -125,9 +125,14 @@ namespace GameMain.Scripts.UI
         {
             GameEntry.DataNode.SetData<VarString>(Constant.ProcedureRunnigData.TransitionalMessage,
                 "Scene " + GameEntry.DataNode.GetData<VarInt>("Level"));
+            
+            //打开过渡界面
             GameEntry.UI.OpenUIForm(UIFormId.TransitionalForm);
 
+            //设置下一场景名称
             GameEntry.DataNode.SetData<VarString>(Constant.ProcedureRunnigData.NextSceneName, "Game");
+            
+            //可以切换流程了
             GameEntry.DataNode.SetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure, true);
         }
 

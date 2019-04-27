@@ -120,7 +120,7 @@ namespace GameMain.Scripts.UI
             GameEntry.Event.Unsubscribe(MessionTouchArgs.EventId, OnMessionTouch);
             GameEntry.Event.Unsubscribe(GameOverArgs.EventId, OnGameOver);
             GameEntry.Event.Unsubscribe(PlayerLivesChangeArgs.EventId,OnPlayerLivesChanged);
-            
+            RemoveAllSkills();
         }
 
         private void OnGameOver(object sender, GameEventArgs e)

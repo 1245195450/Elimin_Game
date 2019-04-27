@@ -24,11 +24,6 @@ namespace GameMain.Scripts.Procedures
         private GameManager m_GameManager;
 
         /// <summary>
-        /// 技能管理者
-        /// </summary>
-        private SkillManager m_SkillManager;
-
-        /// <summary>
         /// 拿到游戏界面的引用
         /// </summary>
         public GamingForm m_GamingForm;
@@ -37,22 +32,24 @@ namespace GameMain.Scripts.Procedures
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {
             base.OnEnter(procedureOwner);
+            // 订阅打开游戏UI界面事件
             GameEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenGamingFormSuccess);
+            // 打开游戏UI界面
             GameEntry.UI.OpenUIForm(UIFormId.GamingForm, this);
         }
 
+        
         private void OnOpenGamingFormSuccess(object sender, GameEventArgs e)
         {
             OpenUIFormSuccessEventArgs ne = (OpenUIFormSuccessEventArgs) e;
             if (ne.UserData != this) return;
             
+            // 拿到游戏UI引用
             m_GamingForm = (GamingForm) ne.UIForm.Logic;
+            
             if (m_GameManager == null)
                 m_GameManager = new GameManager(this);
             m_GameManager?.Init();
-            if (m_SkillManager == null)
-                m_SkillManager = new SkillManager(this);
-            m_SkillManager?.Init();
         }
 
         protected override void OnUpdate(IFsm<IProcedureManager> procedureOwner, float elapseSeconds,
@@ -60,7 +57,6 @@ namespace GameMain.Scripts.Procedures
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
             m_GameManager?.Update();
-            m_SkillManager?.Update();
             if (GameEntry.DataNode.GetData<VarBool>(Constant.ProcedureRunnigData.CanChangeProcedure))
             {
                 ChangeState<ProcedureChangeScene>(procedureOwner);
@@ -71,8 +67,6 @@ namespace GameMain.Scripts.Procedures
         {
             base.OnLeave(procedureOwner, isShutdown);
             GameEntry.Event.Unsubscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenGamingFormSuccess);
-            m_GamingForm.RemoveAllSkills();
-            m_SkillManager.Leave();
             GameEntry.UI.CloseUIForm(m_GamingForm.UIForm);
         }
     }
